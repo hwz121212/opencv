@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="opencl\perf_cascades.cpp">
+      <Filter>opencv_objdetect\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\perf_hogdetect.cpp">
+      <Filter>opencv_objdetect\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_main.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_qrcode_pipeline.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="perf_precomp.hpp">
+      <Filter>opencv_objdetect\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_objdetect">
+      <UniqueIdentifier>{E7A03E13-D9FE-3EB3-B084-FEFA1BE20D74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Include">
+      <UniqueIdentifier>{ABF524C7-1BB1-3E06-97D8-613148223480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Src">
+      <UniqueIdentifier>{3C9823C6-B0D4-30B0-BF85-9611577E50C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Src\opencl">
+      <UniqueIdentifier>{F00C860B-5A2E-3A59-B929-9B8B18C9295F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

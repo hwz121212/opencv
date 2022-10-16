@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="opencl\perf_stitch.cpp">
+      <Filter>opencv_stitching\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\perf_warpers.cpp">
+      <Filter>opencv_stitching\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_estimators.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_main.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_matchers.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_stich.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="perf_precomp.hpp">
+      <Filter>opencv_stitching\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_stitching">
+      <UniqueIdentifier>{C4C16572-266D-320A-A453-1B6BAEEB0CF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Include">
+      <UniqueIdentifier>{8323121A-173E-3C2E-9523-56E2E2460043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Src">
+      <UniqueIdentifier>{6388BAAC-95B5-3006-8D5C-9E9CF919A6C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Src\opencl">
+      <UniqueIdentifier>{16508022-0C19-39FD-AD3C-B707FAC33B10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

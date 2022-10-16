@@ -1,0 +1,4267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="core\src\algorithm.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\alloc.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\arithm.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\arithm.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\array.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\async.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\batch_distance.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\bindings_utils.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\buffer_area.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\channels.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\check.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\command_line_parser.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\conjugate_gradient.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\convert.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\convert_c.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\convert_scale.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\copy.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\count_non_zero.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\cuda_gpu_mat.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\cuda_gpu_mat_nd.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\cuda_host_mem.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\cuda_info.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\cuda_stream.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\datastructs.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\directx.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\downhill_simplex.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\dxt.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\gl_core_3_1.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\glob.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\hal_internal.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\kmeans.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\lapack.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\lda.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\logger.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\lpsolver.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\lut.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\mathfuncs.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\mathfuncs_core.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\matmul.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\matrix.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\matrix_c.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\matrix_decomp.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\matrix_expressions.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\matrix_iterator.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\matrix_operations.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\matrix_sparse.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\matrix_transform.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\matrix_wrap.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\mean.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\merge.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\minmax.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\norm.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\ocl.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\opencl\runtime\opencl_clblas.cpp">
+      <Filter>opencv_core\Src\opencl\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\opencl\runtime\opencl_clfft.cpp">
+      <Filter>opencv_core\Src\opencl\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\opencl\runtime\opencl_core.cpp">
+      <Filter>opencv_core\Src\opencl\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\opengl.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\out.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\ovx.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\parallel\parallel.cpp">
+      <Filter>opencv_core\Src\parallel</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\parallel\parallel_openmp.cpp">
+      <Filter>opencv_core\Src\parallel</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\parallel\parallel_tbb.cpp">
+      <Filter>opencv_core\Src\parallel</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\parallel_impl.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\pca.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\persistence.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\persistence_base64_encoding.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\persistence_json.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\persistence_types.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\persistence_xml.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\persistence_yml.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\rand.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\softfloat.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\split.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\stat.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\stat_c.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\stl.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\sum.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\system.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\trace.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\types.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\umatrix.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\utils\datafile.cpp">
+      <Filter>opencv_core\Src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\utils\filesystem.cpp">
+      <Filter>opencv_core\Src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\utils\logtagconfigparser.cpp">
+      <Filter>opencv_core\Src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\utils\logtagmanager.cpp">
+      <Filter>opencv_core\Src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\utils\samples.cpp">
+      <Filter>opencv_core\Src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\va_intel.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="world\opencl_kernels_core.cpp">
+      <Filter>opencv_core\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="flann\src\flann.cpp">
+      <Filter>opencv_flann\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="flann\src\miniflann.cpp">
+      <Filter>opencv_flann\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\accum.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\accum.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\approx.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\bilateral_filter.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\blend.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\box_filter.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\canny.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\clahe.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\color.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\color_hsv.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\color_lab.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\color_rgb.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\color_yuv.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\colormap.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\connectedcomponents.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\contours.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\convhull.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\corner.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\cornersubpix.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\demosaicing.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\deriv.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\distransform.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\drawing.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\emd.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\featureselect.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\filter.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\floodfill.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\gabor.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\generalized_hough.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\geometry.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\grabcut.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\hershey_fonts.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\histogram.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\hough.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\imgwarp.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\intelligent_scissors.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\intersection.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\linefit.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\lsd.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\matchcontours.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\median_blur.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\min_enclosing_triangle.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\moments.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\morph.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\phasecorr.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\pyramids.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\resize.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\rotcalipers.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\samplers.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\segmentation.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\shapedescr.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\smooth.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\spatialgradient.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\subdivision2d.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\sumpixels.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\tables.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\templmatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\thresh.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="world\opencl_kernels_imgproc.cpp">
+      <Filter>opencv_imgproc\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\ann_mlp.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\boost.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\data.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\em.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\gbt.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\inner_functions.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\kdtree.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\knearest.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\lr.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\nbayes.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\rtrees.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\svm.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\svmsgd.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\testset.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ml\src\tree.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\align.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\calibrate.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\contrast_preserve.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\denoise_tvl1.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\denoising.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\denoising.cuda.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\hdr_common.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\inpaint.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\merge.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\npr.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\seamless_cloning.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\seamless_cloning_impl.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="photo\src\tonemap.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="world\opencl_kernels_photo.cpp">
+      <Filter>opencv_photo\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\caffe\caffe_importer.cpp">
+      <Filter>opencv_dnn\Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\caffe\caffe_io.cpp">
+      <Filter>opencv_dnn\Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\caffe\caffe_shrinker.cpp">
+      <Filter>opencv_dnn\Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\darknet\darknet_importer.cpp">
+      <Filter>opencv_dnn\Src\darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\darknet\darknet_io.cpp">
+      <Filter>opencv_dnn\Src\darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\debug_utils.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\dnn.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\dnn_params.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\dnn_read.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\dnn_utils.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\graph_simplifier.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\halide_scheduler.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\ie_ngraph.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\init.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\quantization_utils.cpp">
+      <Filter>opencv_dnn\Src\int8layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layer_factory.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\accum_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\arg_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\batch_norm_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\blank_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\concat_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\const_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\convolution_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\correlation_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\crop_and_resize_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\cumsum_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\detection_output_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\elementwise_layers.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\eltwise_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\flatten_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\flow_warp_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\fully_connected_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\layers_common.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\lrn_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\max_unpooling_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\mvn_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\normalize_bbox_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\not_implemented_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\padding_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\permute_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\pooling_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\prior_box_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\proposal_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\recurrent_layers.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\reduce_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\region_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\reorg_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\reshape_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\resize_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\scale_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\shuffle_channel_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\slice_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\softmax_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\split_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\legacy_backend.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\model.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\net.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\net_impl.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\net_impl_backend.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\net_impl_fuse.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\net_openvino.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\net_quantization.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\nms.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\ocl4dnn\src\common.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\ocl4dnn\src\math_functions.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\ocl4dnn\src\ocl4dnn_conv_spatial.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\ocl4dnn\src\ocl4dnn_inner_product.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\ocl4dnn\src\ocl4dnn_lrn.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\ocl4dnn\src\ocl4dnn_pool.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\ocl4dnn\src\ocl4dnn_softmax.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\onnx\onnx_graph_simplifier.cpp">
+      <Filter>opencv_dnn\Src\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\onnx\onnx_importer.cpp">
+      <Filter>opencv_dnn\Src\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\op_cuda.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\op_halide.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\op_inf_engine.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\op_timvx.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\op_vkcom.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\op_webnn.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\registry.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\tengine4dnn\src\tengine_graph_convolution.cpp">
+      <Filter>opencv_dnn\Src\tengine4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\tensorflow\tf_graph_simplifier.cpp">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\tensorflow\tf_importer.cpp">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\tensorflow\tf_io.cpp">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\torch\THDiskFile.cpp">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\torch\THFile.cpp">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\torch\THGeneral.cpp">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\torch\torch_importer.cpp">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\shader\avg_pool_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\shader\concat_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\shader\conv48_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\shader\conv_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\shader\dw_conv_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\shader\lrn_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\shader\max_pool_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\shader\permute_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\shader\prior_box_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\shader\relu_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\shader\softmax_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\buffer.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\context.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\internal.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\op_base.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\op_concat.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\op_conv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\op_lrn.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\op_permute.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\op_pool.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\op_prior_box.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\op_relu.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\op_softmax.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\src\tensor.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\vulkan\vk_functions.cpp">
+      <Filter>opencv_dnn\Src\vkcom\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\vkcom\vulkan\vk_loader.cpp">
+      <Filter>opencv_dnn\Src\vkcom\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="world\opencl_kernels_dnn.cpp">
+      <Filter>opencv_dnn\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\affine_feature.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\agast.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\agast_score.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\akaze.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\bagofwords.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\blobdetector.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\brisk.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\draw.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\dynamic.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\evaluation.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\fast.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\fast_score.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\feature2d.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\gftt.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\kaze.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\kaze\AKAZEFeatures.cpp">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\kaze\KAZEFeatures.cpp">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\kaze\fed.cpp">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\kaze\nldiffusion_functions.cpp">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\keypoint.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\mser.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\orb.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\sift.dispatch.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="world\opencl_kernels_features2d.cpp">
+      <Filter>opencv_features2d\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\loadsave.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\utils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_base.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_bmp.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_exr.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_gdal.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_gdcm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_hdr.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_jpeg.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_jpeg2000.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_jpeg2000_openjpeg.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_pam.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_pfm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_png.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_pxm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_sunras.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_tiff.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\grfmt_webp.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\bitstrm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\rgbe.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcodecs\src\exif.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="videoio\src\videoio_registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoio\src\videoio_c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoio\src\cap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoio\src\cap_images.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoio\src\cap_mjpeg_encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoio\src\cap_mjpeg_decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoio\src\backend_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoio\src\backend_static.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoio\src\container_avi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoio\src\cap_dshow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videoio\src\cap_msmf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\ap3p.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\calibinit.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\calibration.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\calibration_handeye.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\checkchessboard.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\chessboard.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\circlesgrid.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\compat_ptsetreg.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\dls.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\epnp.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\fisheye.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\five-point.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\fundam.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\homography_decomp.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\ippe.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\levmarq.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\p3p.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\polynom_solver.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\posit.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\ptsetreg.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\quadsubpix.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\rho.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\solvepnp.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\sqpnp.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\stereobm.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\stereosgbm.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\triangulate.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\undistort.dispatch.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\upnp.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\degeneracy.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\dls_solver.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\essential_solver.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\estimator.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\fundamental_solver.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\gamma_values.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\homography_solver.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\local_optimization.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\pnp_solver.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\quality.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\ransac_solvers.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\sampler.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\termination.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="world\opencl_kernels_calib3d.cpp">
+      <Filter>opencv_calib3d\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="highgui\src\backend.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="highgui\src\window.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="highgui\src\roiSelector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="highgui\src\window_w32.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="objdetect\src\cascadedetect.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="objdetect\src\cascadedetect_convert.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="objdetect\src\detection_based_tracker.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="objdetect\src\face_detect.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="objdetect\src\face_recognize.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="objdetect\src\hog.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="objdetect\src\qrcode.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="objdetect\src\qrcode_encoder.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="world\opencl_kernels_objdetect.cpp">
+      <Filter>opencv_objdetect\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching\src\autocalib.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching\src\blenders.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching\src\camera.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching\src\exposure_compensate.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching\src\matchers.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching\src\motion_estimators.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching\src\seam_finders.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching\src\stitcher.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching\src\timelapsers.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching\src\util.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching\src\warpers.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching\src\warpers_cuda.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="world\opencl_kernels_stitching.cpp">
+      <Filter>opencv_stitching\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\bgfg_KNN.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\bgfg_gaussmix2.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\camshift.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\dis_flow.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\ecc.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\kalman.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\lkpyramid.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\optflowgf.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\optical_flow_io.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\detail\tracker_feature.cpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\detail\tracker_feature_set.cpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\detail\tracker_mil_model.cpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\detail\tracker_mil_state.cpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\detail\tracker_model.cpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\detail\tracker_sampler.cpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\detail\tracker_sampler_algorithm.cpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\detail\tracker_state_estimator.cpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\detail\tracking_feature.cpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\detail\tracking_online_mil.cpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\tracker.cpp">
+      <Filter>opencv_video\Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\tracker_dasiamrpn.cpp">
+      <Filter>opencv_video\Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\tracker_goturn.cpp">
+      <Filter>opencv_video\Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\tracking\tracker_mil.cpp">
+      <Filter>opencv_video\Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="video\src\variational_refinement.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="world\opencl_kernels_video.cpp">
+      <Filter>opencv_video\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\grunarg.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\gorigin.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\gmat.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\garray.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\gopaque.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\gscalar.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\gframe.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\gkernel.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\gbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\gproto.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\gnode.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\gcall.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\gcomputation.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\operators.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\kernels_core.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\kernels_imgproc.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\kernels_video.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\kernels_nnparsers.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\kernels_streaming.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\kernels_stereo.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\render.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\render_ocv.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\ginfer.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\media.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\rmat.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\gmodel.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\gmodelbuilder.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\gislandmodel.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\gcompiler.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\gcompiled.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\gstreaming.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\passes\helpers.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\passes\dump_dot.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\passes\islands.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\passes\meta.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\passes\kernels.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\passes\exec.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\passes\transformations.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\passes\pattern_matching.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\passes\perform_substitution.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\passes\streaming.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\compiler\passes\intrin.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\executor\gexecutor.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\executor\gtbbexecutor.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\executor\gstreamingexecutor.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\executor\gasync.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\cpu\gcpubackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\cpu\gcpukernel.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\cpu\gcpuimgproc.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\cpu\gcpustereo.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\cpu\gcpuvideo.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\cpu\gcpucore.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\cpu\gnnparsers.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\fluid\gfluidbuffer.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\fluid\gfluidbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\fluid\gfluidimgproc.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\fluid\gfluidimgproc_func.dispatch.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\fluid\gfluidcore.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\fluid\gfluidcore_func.dispatch.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\oak\goak.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\oak\goakbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\oak\goak_memory_adapters.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\ocl\goclbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\ocl\goclkernel.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\ocl\goclimgproc.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\ocl\goclcore.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\ie\giebackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\ie\giebackend\giewrapper.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\onnx\gonnxbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\render\grenderocv.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\render\ft_render.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\plaidml\gplaidmlcore.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\plaidml\gplaidmlbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\common\gmetabackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\common\gcompoundbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\common\gcompoundkernel.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\api\s11n.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\common\serialization.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\streaming\gstreamingbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\ie\bindings_ie.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\backends\python\gpythonbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\source.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\source_priv.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\file_data_provider.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\cfg_params.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\cfg_params_parser.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\data_provider_interface_exception.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\surface\base_frame_adapter.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\surface\cpu_frame_adapter.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\surface\dx11_frame_adapter.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\surface\surface.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\surface\surface_pool.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\utils\shared_lock.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\accel_policy_cpu.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\accel_policy_dx11.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\accel_policy_va_api.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\dx11_alloc_resource.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\engine_session.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\processing_engine_base.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\decode\decode_engine_legacy.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\decode\decode_session.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\transcode\transcode_engine_legacy.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\transcode\transcode_session.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\preproc\preproc_engine.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\preproc\preproc_session.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\preproc\preproc_dispatcher.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\preproc_engine_interface.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\demux\async_mfp_demux_data_provider.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\data_provider_dispatcher.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\cfg_param_device_selector.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\device_selector_interface.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\gstreamer\gstreamer_pipeline_facade.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\gstreamer\gstreamerpipeline.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\gstreamer\gstreamersource.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\gstreamer\gstreamer_buffer_utils.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\gstreamer\gstreamer_media_adapter.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\gstreamer\gstreamerenv.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\utils\itt.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="world\src\world_init.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\caffe\opencv-caffe.pb.cc">
+      <Filter>opencv_dnn\Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\onnx\opencv-onnx.pb.cc">
+      <Filter>opencv_dnn\Src\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\tensorflow\attr_value.pb.cc">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\tensorflow\function.pb.cc">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\tensorflow\graph.pb.cc">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\tensorflow\op_def.pb.cc">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\tensorflow\tensor.pb.cc">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\tensorflow\tensor_shape.pb.cc">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\tensorflow\types.pb.cc">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\tensorflow\versions.pb.cc">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\core_parallel.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="core\src\core_tables.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\imgproc_main.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\features2d_main.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\calib3d_main.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="objdetect\src\objdetect_main.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\imgproc_utils.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="calib3d\src\usac\calib3d_utils.cpp">
+      <Filter>opencv_calib3d\Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\gapi_utils.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_batch_norm_layer.cpp">
+      <Filter>opencv_dnn\Src\int8layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_convolution_layer.cpp">
+      <Filter>opencv_dnn\Src\int8layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_elementwise_layers.cpp">
+      <Filter>opencv_dnn\Src\int8layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_eltwise_layer.cpp">
+      <Filter>opencv_dnn\Src\int8layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_fully_connected_layer.cpp">
+      <Filter>opencv_dnn\Src\int8layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_pooling_layer.cpp">
+      <Filter>opencv_dnn\Src\int8layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_reduce_layer.cpp">
+      <Filter>opencv_dnn\Src\int8layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_scale_layer.cpp">
+      <Filter>opencv_dnn\Src\int8layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_softmax_layer.cpp">
+      <Filter>opencv_dnn\Src\int8layers</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\features2d_matchers.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calib3d.hpp">
+      <Filter>opencv_calib3d\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\calib3d.hpp">
+      <Filter>opencv_calib3d\Include\opencv2\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\calib3d_c.h">
+      <Filter>opencv_calib3d\Include\opencv2\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="core.hpp">
+      <Filter>opencv_core\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="core\affine.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\async.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\base.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\bindings_utils.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\bufferpool.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\check.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\core.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\core_c.h">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda.inl.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\block.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\border_interpolate.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\color.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\common.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\datamov_utils.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\detail\color_detail.hpp">
+      <Filter>Include\Cuda Headers\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\detail\reduce.hpp">
+      <Filter>Include\Cuda Headers\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\detail\reduce_key_val.hpp">
+      <Filter>Include\Cuda Headers\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\detail\transform_detail.hpp">
+      <Filter>Include\Cuda Headers\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\detail\type_traits_detail.hpp">
+      <Filter>Include\Cuda Headers\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\detail\vec_distance_detail.hpp">
+      <Filter>Include\Cuda Headers\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\dynamic_smem.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\emulation.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\filters.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\funcattrib.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\functional.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\limits.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\reduce.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\saturate_cast.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\scan.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\simd_functions.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\transform.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\type_traits.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\utility.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\vec_distance.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\vec_math.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\vec_traits.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\warp.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\warp_reduce.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda\warp_shuffle.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda_stream_accessor.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cuda_types.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cv_cpu_dispatch.h">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cv_cpu_helper.h">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cvdef.h">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cvstd.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cvstd.inl.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cvstd_wrapper.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\detail\async_promise.hpp">
+      <Filter>opencv_core\Include\opencv2\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="core\detail\dispatch_helper.impl.hpp">
+      <Filter>opencv_core\Include\opencv2\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="core\detail\exception_ptr.hpp">
+      <Filter>opencv_core\Include\opencv2\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="core\directx.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\dualquaternion.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\dualquaternion.inl.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\eigen.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\fast_math.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\hal.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\interface.h">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin_avx.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin_avx512.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin_cpp.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin_forward.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin_msa.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin_neon.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin_rvv.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin_rvv071.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin_sse.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin_sse_em.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin_vsx.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\intrin_wasm.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\msa_macros.h">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hal\simd_utils.impl.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="core\mat.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\mat.inl.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\matx.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\neon_utils.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ocl.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ocl_genbase.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\ocl_defs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\opencl_info.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\opencl_svm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\autogenerated\opencl_clblas.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\autogenerated\opencl_clfft.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\autogenerated\opencl_core.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\autogenerated\opencl_core_wrappers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\autogenerated\opencl_gl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\autogenerated\opencl_gl_wrappers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\opencl_clblas.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\opencl_clfft.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\opencl_core.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\opencl_core_wrappers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\opencl_gl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\opencl_gl_wrappers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\opencl_svm_20.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\opencl_svm_definitions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opencl\runtime\opencl_svm_hsa_extension.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opengl.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\operations.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\optim.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ovx.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\parallel\backend\parallel_for.openmp.hpp">
+      <Filter>opencv_core\Include\opencv2\core\parallel\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="core\parallel\backend\parallel_for.tbb.hpp">
+      <Filter>opencv_core\Include\opencv2\core\parallel\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="core\parallel\parallel_backend.hpp">
+      <Filter>opencv_core\Include\opencv2\core\parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="core\persistence.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\private.cuda.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\private.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\quaternion.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\quaternion.inl.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\saturate.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\simd_intrinsics.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\softfloat.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sse_utils.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\traits.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types_c.h">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utility.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\allocator_stats.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\allocator_stats.impl.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\buffer_area.private.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\configuration.private.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\filesystem.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\filesystem.private.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\fp_control.private.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\fp_control_utils.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\instrumentation.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\lock.private.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\logger.defines.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\logger.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\logtag.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\plugin_loader.private.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\tls.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\trace.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\trace.private.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\va_intel.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\version.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\vsx_utils.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn.hpp">
+      <Filter>opencv_dnn\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\all_layers.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\dict.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\dnn.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\dnn.inl.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\layer.details.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\layer.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\layer_reg.private.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\shape_utils.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\utils\debug_utils.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\utils\inference_engine.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\version.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d.hpp">
+      <Filter>opencv_features2d\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\features2d.hpp">
+      <Filter>opencv_features2d\Include\opencv2\features2d</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\hal\interface.h">
+      <Filter>opencv_features2d\Include\opencv2\features2d\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="flann.hpp">
+      <Filter>opencv_flann\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\all_indices.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\allocator.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\any.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\autotuned_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\composite_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\config.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\defines.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\dist.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\dummy.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\dynamic_bitset.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\flann.hpp">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\flann_base.hpp">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\general.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\ground_truth.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\hdf5.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\heap.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\hierarchical_clustering_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\index_testing.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\kdtree_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\kdtree_single_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\kmeans_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\linear_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\logger.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\lsh_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\lsh_table.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\matrix.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\miniflann.hpp">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\nn_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\object_factory.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\params.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\random.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\result_set.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\sampling.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\saving.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\simplex_downhill.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\timer.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\core.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\cpu\core.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\cpu\gcpukernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\cpu\imgproc.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\cpu\stereo.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\cpu\video.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\fluid\core.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\fluid\gfluidbuffer.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\fluid\gfluidkernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\fluid\imgproc.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\garg.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\garray.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gasync_context.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gcall.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gcommon.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gcompiled.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gcompiled_async.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gcompoundkernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gcomputation.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gcomputation_async.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gframe.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gkernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gmat.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gmetaarg.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gopaque.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gproto.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gpu\core.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gpu\ggpukernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gpu\imgproc.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gscalar.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gstreaming.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gtransform.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gtype_traits.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\gtyped.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\imgproc.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\infer.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\infer\bindings_ie.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\infer\ie.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\infer\onnx.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\infer\parsers.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\media.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\oak\infer.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\oak\oak.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\ocl\core.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\ocl\goclkernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\ocl\imgproc.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\opencv_includes.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\operators.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\own\assert.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\own\convert.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\own\cvdefs.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\own\exports.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\own\mat.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\own\saturate.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\own\scalar.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\own\types.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\plaidml\core.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\plaidml\gplaidmlkernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\plaidml\plaidml.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\python\python.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\render.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\render\render.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\render\render_types.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\rmat.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\s11n.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\s11n\base.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\stereo.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\cap.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\desync.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\format.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\gstreamer\gstreamerpipeline.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\gstreamer\gstreamersource.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\meta.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\onevpl\accel_types.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\onevpl\cfg_params.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\onevpl\data_provider_interface.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\onevpl\device_selector_interface.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\onevpl\source.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\source.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\streaming\sync.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\util\any.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\util\compiler_hints.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\util\copy_through_move.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\util\optional.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\util\throw.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\util\type_traits.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\util\util.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\util\variant.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="gapi\video.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="highgui.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="highgui\highgui.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="highgui\highgui_c.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\imgcodecs.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\imgcodecs_c.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\ios.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\legacy\constants_c.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\macosx.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc.hpp">
+      <Filter>opencv_imgproc\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\bindings.hpp">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\detail\gcgraph.hpp">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\hal\hal.hpp">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\hal\interface.h">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\imgproc.hpp">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\imgproc_c.h">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\segmentation.hpp">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\types_c.h">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="ml.hpp">
+      <Filter>opencv_ml\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\ml.hpp">
+      <Filter>opencv_ml\Include\opencv2\ml</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\ml.inl.hpp">
+      <Filter>opencv_ml\Include\opencv2\ml</Filter>
+    </ClInclude>
+    <ClInclude Include="objdetect.hpp">
+      <Filter>opencv_objdetect\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="objdetect\detection_based_tracker.hpp">
+      <Filter>opencv_objdetect\Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="objdetect\face.hpp">
+      <Filter>opencv_objdetect\Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="objdetect\objdetect.hpp">
+      <Filter>opencv_objdetect\Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="photo.hpp">
+      <Filter>opencv_photo\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\cuda.hpp">
+      <Filter>opencv_photo\Include\opencv2\photo</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\legacy\constants_c.h">
+      <Filter>opencv_photo\Include\opencv2\photo\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\photo.hpp">
+      <Filter>opencv_photo\Include\opencv2\photo</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching.hpp">
+      <Filter>opencv_stitching\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\detail\autocalib.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\detail\blenders.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\detail\camera.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\detail\exposure_compensate.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\detail\matchers.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\detail\motion_estimators.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\detail\seam_finders.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\detail\timelapsers.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\detail\util.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\detail\util_inl.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\detail\warpers.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\detail\warpers_inl.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\warpers.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching</Filter>
+    </ClInclude>
+    <ClInclude Include="video.hpp">
+      <Filter>opencv_video\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="video\background_segm.hpp">
+      <Filter>opencv_video\Include\opencv2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="video\detail\tracking.detail.hpp">
+      <Filter>opencv_video\Include\opencv2\video\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="video\legacy\constants_c.h">
+      <Filter>opencv_video\Include\opencv2\video\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="video\tracking.hpp">
+      <Filter>opencv_video\Include\opencv2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="video\video.hpp">
+      <Filter>opencv_video\Include\opencv2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="videoio.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="videoio\cap_ios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="videoio\container_avi.private.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="videoio\legacy\constants_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="videoio\registry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="videoio\videoio.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="videoio\videoio_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="videoio\src\cap_dshow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="videoio\src\precomp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="world.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="world\opencl_kernels_core.hpp">
+      <Filter>opencv_core\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\arithm.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\arithm_ipp.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\bufferpool.impl.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\convert.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\convert.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\convert_scale.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\count_non_zero.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\directx.inc.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\gl_core_3_1.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\hal_internal.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\hal_replacement.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\intel_gpu_gemm.inl.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\mathfuncs.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\mathfuncs_core.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\matmul.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\mean.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\merge.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\ocl_disabled.impl.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\opencl\runtime\autogenerated\opencl_clblas_impl.hpp">
+      <Filter>opencv_core\Src\opencl\runtime\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\opencl\runtime\autogenerated\opencl_clfft_impl.hpp">
+      <Filter>opencv_core\Src\opencl\runtime\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\opencl\runtime\autogenerated\opencl_core_impl.hpp">
+      <Filter>opencv_core\Src\opencl\runtime\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\opencl\runtime\autogenerated\opencl_core_static_impl.hpp">
+      <Filter>opencv_core\Src\opencl\runtime\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\opencl\runtime\autogenerated\opencl_gl_impl.hpp">
+      <Filter>opencv_core\Src\opencl\runtime\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\opencl\runtime\autogenerated\opencl_gl_static_impl.hpp">
+      <Filter>opencv_core\Src\opencl\runtime\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\opencl\runtime\runtime_common.hpp">
+      <Filter>opencv_core\Src\opencl\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\parallel\factory_parallel.hpp">
+      <Filter>opencv_core\Src\parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\parallel\parallel.hpp">
+      <Filter>opencv_core\Src\parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\parallel\plugin_parallel_api.hpp">
+      <Filter>opencv_core\Src\parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\parallel\plugin_parallel_wrapper.impl.hpp">
+      <Filter>opencv_core\Src\parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\parallel\registry_parallel.hpp">
+      <Filter>opencv_core\Src\parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\parallel\registry_parallel.impl.hpp">
+      <Filter>opencv_core\Src\parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\parallel_impl.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\persistence.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\persistence_base64_encoding.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\persistence_impl.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\precomp.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\split.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\stat.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\stat.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\sum.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\umatrix.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\utils\logtagconfig.hpp">
+      <Filter>opencv_core\Src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\utils\logtagconfigparser.hpp">
+      <Filter>opencv_core\Src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\utils\logtagmanager.hpp">
+      <Filter>opencv_core\Src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\utils\plugin_loader.impl.hpp">
+      <Filter>opencv_core\Src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\src\va_wrapper.impl.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="flann\src\precomp.hpp">
+      <Filter>opencv_flann\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="world\opencl_kernels_imgproc.hpp">
+      <Filter>opencv_imgproc\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\_geom.h">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\accum.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\bilateral_filter.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\box_filter.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\ccl_bolelli_forest.inc.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\ccl_bolelli_forest_firstline.inc.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\ccl_bolelli_forest_lastline.inc.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\ccl_bolelli_forest_singleline.inc.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\color.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\color.simd_helpers.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\color_hsv.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\color_rgb.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\color_yuv.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\corner.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\filter.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\filter.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\filterengine.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\fixedpoint.inl.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\hal_replacement.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\imgwarp.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\median_blur.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\morph.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\precomp.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\resize.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\smooth.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\sumpixels.avx512_skx.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgproc\src\sumpixels.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\src\kdtree.hpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="ml\src\precomp.hpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="world\opencl_kernels_photo.hpp">
+      <Filter>opencv_photo\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\src\arrays.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\src\contrast_preserve.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\src\fast_nlmeans_denoising_invoker.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\src\fast_nlmeans_denoising_invoker_commons.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\src\fast_nlmeans_denoising_opencl.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\src\fast_nlmeans_multi_denoising_invoker.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\src\hdr_common.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\src\npr.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\src\precomp.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="photo\src\seamless_cloning.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="world\opencl_kernels_dnn.hpp">
+      <Filter>opencv_dnn\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\caffe\caffe_io.hpp">
+      <Filter>opencv_dnn\Src\caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\caffe\glog_emulator.hpp">
+      <Filter>opencv_dnn\Src\caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\array.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\atomics.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\bbox_utils.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\block_stride_range.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\execution.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\functors.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\grid_stride_range.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\index_helpers.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\kernel_dispatcher.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\limits.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\math.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\memory.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\types.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\cuda\vector_traits.hpp">
+      <Filter>opencv_dnn\Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\darknet\darknet_io.hpp">
+      <Filter>opencv_dnn\Src\darknet</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\dnn_common.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\graph_simplifier.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\halide_scheduler.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\ie_ngraph.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\int8layers\layers_common.hpp">
+      <Filter>opencv_dnn\Src\int8layers</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\int8layers\layers_common.simd.hpp">
+      <Filter>opencv_dnn\Src\int8layers</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\layer_internals.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\layers\layers_common.hpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\layers\layers_common.simd.hpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\legacy_backend.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\math_utils.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\net_impl.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\nms.inl.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\ocl4dnn\include\common.hpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\ocl4dnn\include\default_kernel_config.hpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\ocl4dnn\include\math_functions.hpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\ocl4dnn\include\ocl4dnn.hpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\onnx\onnx_graph_simplifier.hpp">
+      <Filter>opencv_dnn\Src\onnx</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\op_cuda.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\op_halide.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\op_inf_engine.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\op_timvx.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\op_vkcom.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\op_webnn.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\precomp.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\tengine4dnn\include\tengine_graph_convolution.hpp">
+      <Filter>opencv_dnn\Src\tengine4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\tensorflow\tf_graph_simplifier.hpp">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\tensorflow\tf_io.hpp">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\torch\THDiskFile.h">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\torch\THFile.h">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\torch\THFilePrivate.h">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\torch\THGeneral.h">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\include\buffer.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\include\op_base.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\include\op_concat.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\include\op_conv.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\include\op_lrn.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\include\op_permute.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\include\op_pool.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\include\op_prior_box.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\include\op_relu.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\include\op_softmax.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\include\tensor.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\include\vkcom.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\shader\spv_shader.hpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\src\common.hpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\src\context.hpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\src\internal.hpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\vulkan\function_list.inl.hpp">
+      <Filter>opencv_dnn\Src\vkcom\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\vulkan\vk_functions.hpp">
+      <Filter>opencv_dnn\Src\vkcom\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\vkcom\vulkan\vk_loader.hpp">
+      <Filter>opencv_dnn\Src\vkcom\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="world\opencl_kernels_features2d.hpp">
+      <Filter>opencv_features2d\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\agast_score.hpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\fast.hpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\fast_score.hpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\hal_replacement.hpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\kaze\AKAZEConfig.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\kaze\AKAZEFeatures.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\kaze\KAZEConfig.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\kaze\KAZEFeatures.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\kaze\TEvolution.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\kaze\fed.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\kaze\nldiffusion_functions.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\kaze\utils.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\precomp.hpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d\src\sift.simd.hpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\utils.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_base.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_bmp.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_exr.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_gdal.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_gdcm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_hdr.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_jpeg.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_jpeg2000.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_jpeg2000_openjpeg.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_pam.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_pfm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_png.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_pxm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_sunras.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_tiff.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmt_webp.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\grfmts.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\bitstrm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\rgbe.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcodecs\src\exif.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="videoio\src\cap_msmf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="world\opencl_kernels_calib3d.hpp">
+      <Filter>opencv_calib3d\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\ap3p.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\calib3d_c_api.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\chessboard.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\circlesgrid.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\distortion_model.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\dls.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\epnp.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\fisheye.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\ippe.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\p3p.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\polynom_solver.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\precomp.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\rho.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\sqpnp.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\undistort.simd.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\upnp.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="calib3d\src\usac.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="highgui\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="world\opencl_kernels_objdetect.hpp">
+      <Filter>opencv_objdetect\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="objdetect\src\cascadedetect.hpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="objdetect\src\precomp.hpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="objdetect\src\qrcode_encoder_table.inl.hpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="world\opencl_kernels_stitching.hpp">
+      <Filter>opencv_stitching\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\src\precomp.hpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="stitching\src\util_log.hpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="world\opencl_kernels_video.hpp">
+      <Filter>opencv_video\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="video\src\lkpyramid.hpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="video\src\precomp.hpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="video\src\tracking\detail\tracker_feature_haar.impl.hpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="video\src\tracking\detail\tracker_mil_model.hpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="video\src\tracking\detail\tracker_mil_state.hpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="video\src\tracking\detail\tracking_feature.hpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="video\src\tracking\detail\tracking_online_mil.hpp">
+      <Filter>opencv_video\Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="world\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\caffe\opencv-caffe.pb.h">
+      <Filter>opencv_dnn\Src\caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\onnx\opencv-onnx.pb.h">
+      <Filter>opencv_dnn\Src\onnx</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\tensorflow\attr_value.pb.h">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\tensorflow\function.pb.h">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\tensorflow\graph.pb.h">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\tensorflow\op_def.pb.h">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\tensorflow\tensor.pb.h">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\tensorflow\tensor_shape.pb.h">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\tensorflow\types.pb.h">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn\src\tensorflow\versions.pb.h">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="version_string.inc">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="core\src\opencl\arithm.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\convert.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\copymakeborder.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\copyset.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\cvtclr_dx.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\fft.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\flip.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\gemm.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\halfconvert.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\inrange.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\intel_gemm.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\lut.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\meanstddev.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\minmaxloc.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\mixchannels.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\mulspectrums.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\normalize.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\reduce.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\reduce2.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\repeat.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\set_identity.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\split_merge.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="core\src\opencl\transpose.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\accumulate.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\bilateral.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\blend_linear.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\boxFilter.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\boxFilter3x3.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\calc_back_project.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\canny.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\clahe.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\color_hsv.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\color_lab.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\color_rgb.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\color_yuv.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\corner.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\covardata.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\filter2D.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\filter2DSmall.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\filterSepCol.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\filterSepRow.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\filterSep_singlePass.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\filterSmall.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\gaussianBlur3x3.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\gaussianBlur5x5.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\gftt.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\histogram.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\hough_lines.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\integral_sum.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\laplacian3.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\laplacian5.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\linearPolar.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\logPolar.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\match_template.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\medianFilter.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\moments.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\morph.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\morph3x3.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\precornerdetect.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\pyr_down.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\pyr_up.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\pyramid_up.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\remap.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\resize.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\sepFilter3x3.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\threshold.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\warp_affine.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\warp_perspective.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="imgproc\src\opencl\warp_transform.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="photo\src\opencl\nlmeans.cl">
+      <Filter>opencv_photo\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\activations.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\batchnorm.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\col2im.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\concat.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\conv_layer_spatial.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\conv_spatial_helper.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\detection_output.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\dummy.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\eltwise.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\gemm_buffer.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\gemm_image.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\im2col.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\lrn.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\math.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\matvec_mul.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\mvn.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\ocl4dnn_lrn.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\ocl4dnn_pooling.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\permute.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\pooling.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\prior_box.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\region.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\slice.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\softmax.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="dnn\src\opencl\softmax_loss.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="features2d\src\opencl\akaze.cl">
+      <Filter>opencv_features2d\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="features2d\src\opencl\brute_force_match.cl">
+      <Filter>opencv_features2d\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="features2d\src\opencl\fast.cl">
+      <Filter>opencv_features2d\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="features2d\src\opencl\orb.cl">
+      <Filter>opencv_features2d\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="calib3d\src\opencl\stereobm.cl">
+      <Filter>opencv_calib3d\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="objdetect\src\opencl\cascadedetect.cl">
+      <Filter>opencv_objdetect\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="objdetect\src\opencl\objdetect_hog.cl">
+      <Filter>opencv_objdetect\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="stitching\src\opencl\multibandblend.cl">
+      <Filter>opencv_stitching\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="stitching\src\opencl\warpers.cl">
+      <Filter>opencv_stitching\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="video\src\opencl\bgfg_knn.cl">
+      <Filter>opencv_video\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="video\src\opencl\bgfg_mog2.cl">
+      <Filter>opencv_video\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="video\src\opencl\dis_flow.cl">
+      <Filter>opencv_video\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="video\src\opencl\optical_flow_farneback.cl">
+      <Filter>opencv_video\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="video\src\opencl\pyrlk.cl">
+      <Filter>opencv_video\Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8686B779-C810-344D-B08C-9EF9F638F92F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{4D2421D6-3287-3AE7-B231-734E2D48F84B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Cuda Headers">
+      <UniqueIdentifier>{773CFCED-9B50-38D4-ADB0-16342BC425FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Cuda Headers\Detail">
+      <UniqueIdentifier>{30B2DA99-6D61-35B2-A73A-11AD04434D29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{5EAD0493-ED9F-33E6-92AC-4094F2204030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{23C1331B-3365-3651-9225-554A6841ACD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{6BEF9A64-EBC1-36A1-BA0F-2F6D5C05DC9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\grfmts">
+      <UniqueIdentifier>{85D2A4A0-ACC7-3B3E-9966-0141E6A69D2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d">
+      <UniqueIdentifier>{3912F805-E07E-3FFA-8815-781EB52A92FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Include">
+      <UniqueIdentifier>{4D0BA3B1-C0AA-397F-9E1F-0E669BF503EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Include\opencv2">
+      <UniqueIdentifier>{8EC3CBAB-D814-3598-BEBA-959E0013CE68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Include\opencv2\calib3d">
+      <UniqueIdentifier>{3D131D3E-FE77-3DB4-BE3D-CB701D63EC0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Src">
+      <UniqueIdentifier>{63B16A6E-E58F-301F-A09F-6E1467A219A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Src\opencl">
+      <UniqueIdentifier>{45AD1BE9-C705-3A14-80CD-60AAB3C8EDD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Src\opencl\kernels">
+      <UniqueIdentifier>{ED6A4FA9-0F71-37A0-9C7A-986944CC2C55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{DC030F3E-C4FE-39CF-8763-08F19D851A2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Src\usac">
+      <UniqueIdentifier>{CB851044-045C-30D2-A5B1-2B1B1759D7E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core">
+      <UniqueIdentifier>{B43E8447-6D7B-38FC-94CF-A6BFF546DF1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include">
+      <UniqueIdentifier>{190C9092-7E05-3169-A089-0486F62F502B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2">
+      <UniqueIdentifier>{02362EB3-4EE8-3DDD-8193-755742127507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2\core">
+      <UniqueIdentifier>{0329CF08-A869-37FF-837A-4251DCE07DB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2\core\detail">
+      <UniqueIdentifier>{A2A7A306-3081-3F54-AF16-8053E01C20FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2\core\hal">
+      <UniqueIdentifier>{A3F6BE91-712C-374C-87C8-A2E0504349C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2\core\parallel">
+      <UniqueIdentifier>{8C423068-E9E3-3432-B944-A70FD517C19A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2\core\parallel\backend">
+      <UniqueIdentifier>{82BC6812-00CC-309D-B143-587B80181D8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2\core\utils">
+      <UniqueIdentifier>{D2F9C192-4CD1-3EBE-9EED-85FD02295515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src">
+      <UniqueIdentifier>{0809F40B-6067-366E-9FA1-9009B80DB6AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl">
+      <UniqueIdentifier>{55CEADA7-AEA7-39CA-86C6-5759ADB66F8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl\kernels">
+      <UniqueIdentifier>{D77BC057-AF69-3CAF-B797-FA9A1B3C4C3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{4B5BAD7B-06DA-3F02-B8F9-D35B8B979BEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl\runtime">
+      <UniqueIdentifier>{00229F10-79F2-35A6-87EE-D385C0F719CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl\runtime\autogenerated">
+      <UniqueIdentifier>{15BF1FCD-5AC2-37FC-BA0E-96A6682D8436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\parallel">
+      <UniqueIdentifier>{B1968432-A391-3239-810D-58A25F1DB054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\utils">
+      <UniqueIdentifier>{2B9397E5-EA25-375C-A25E-0D66BC185F67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn">
+      <UniqueIdentifier>{62BAB241-5B5A-3803-9E55-9C0F975885CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Include">
+      <UniqueIdentifier>{4497A51E-C3BA-357E-B923-EFA69015DA1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Include\opencv2">
+      <UniqueIdentifier>{2FB72346-7D1D-311D-B4C4-FFC25B2D52F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Include\opencv2\dnn">
+      <UniqueIdentifier>{9D22E417-27EA-3B3B-8901-7F6880DFB11B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Include\opencv2\dnn\utils">
+      <UniqueIdentifier>{CD5A4E87-281F-3EAB-A678-42115555AE03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src">
+      <UniqueIdentifier>{D0DD90A7-3F91-3D78-AF9C-A845FF50CA77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\caffe">
+      <UniqueIdentifier>{83E7C2C8-EE3F-3407-9AB7-DCC9AFF2A35D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\cuda">
+      <UniqueIdentifier>{9FB2ABAF-F6A3-3763-AE72-B772D3E6F46A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\darknet">
+      <UniqueIdentifier>{4177691B-F884-322D-B7FE-EE2DE8FB5906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\int8layers">
+      <UniqueIdentifier>{AACA9992-662B-328F-8BE9-614F7DFABE63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\layers">
+      <UniqueIdentifier>{08F9CE75-F8B3-3E0C-9071-34BBD21BE2F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\ocl4dnn">
+      <UniqueIdentifier>{26A960C4-4C45-3F59-AEEA-8DAAD6EC6DDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\ocl4dnn\include">
+      <UniqueIdentifier>{5E1B4B90-9D8C-3FE9-9356-F56B88302ACA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\ocl4dnn\src">
+      <UniqueIdentifier>{64B5DADD-1B70-39C5-AA09-8B1C57B12DE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\onnx">
+      <UniqueIdentifier>{66F547B6-80A1-3FD6-99A0-767274E91985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\opencl">
+      <UniqueIdentifier>{2DD85BB9-E613-309A-85B4-A4E2D9C135C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\opencl\kernels">
+      <UniqueIdentifier>{1F08298F-A9FB-3475-AEEC-8865A7D72CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{8F64BFAD-4E80-3879-8F92-876A4EDE1D51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\tengine4dnn">
+      <UniqueIdentifier>{B19089A9-BEAE-3F2C-BABC-686EFECD11F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\tengine4dnn\include">
+      <UniqueIdentifier>{F2C7AFBF-955D-34C8-847F-ED74963E87DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\tengine4dnn\src">
+      <UniqueIdentifier>{C8C96C3C-35FF-3162-9FEB-240A33255F0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\tensorflow">
+      <UniqueIdentifier>{9F0492EC-FED0-316F-AAA3-163137DACE7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\torch">
+      <UniqueIdentifier>{094127B8-FA83-3343-8CE9-9B30A6C13BE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\vkcom">
+      <UniqueIdentifier>{E053ACB2-AF1A-3F2C-A410-672580E129CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\vkcom\include">
+      <UniqueIdentifier>{E0147B2D-18A9-3150-BC27-90E30A982D5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\vkcom\shader">
+      <UniqueIdentifier>{0ACF7D2C-08BA-354E-9624-4ACCA56BC827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\vkcom\src">
+      <UniqueIdentifier>{9B92CD85-DFD5-3916-8286-581B8127DCA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\vkcom\vulkan">
+      <UniqueIdentifier>{CE3BEE32-EB77-3F31-8A9C-208F55ED81C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d">
+      <UniqueIdentifier>{6250FBB1-547F-355D-9F4A-3EDEB6DC8BD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Include">
+      <UniqueIdentifier>{DF4EC9AE-D516-35DC-AFB2-D9D208BC9F67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Include\opencv2">
+      <UniqueIdentifier>{46DF6C47-7693-3715-B385-7EEF8F82B58C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Include\opencv2\features2d">
+      <UniqueIdentifier>{1F7B89FA-42DE-3F26-B387-58ACA756E6C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Include\opencv2\features2d\hal">
+      <UniqueIdentifier>{CD2E5D2C-3C40-316D-979C-59EF17EA8558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src">
+      <UniqueIdentifier>{D9D48AEA-D266-37D4-ADB7-AEFD67B05C94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src\kaze">
+      <UniqueIdentifier>{0289ACEE-48D1-3799-B575-D7D8B87A75C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src\opencl">
+      <UniqueIdentifier>{1B3D29C4-2DB4-3384-9C2D-E55E57A7EF3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src\opencl\kernels">
+      <UniqueIdentifier>{F27E0459-CF11-33BB-8A22-4E43979E8CC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{49D6C88C-7437-3E25-A981-1D828339B55A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann">
+      <UniqueIdentifier>{082F43FA-4D52-3488-B142-44A6B14F2574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann\Include">
+      <UniqueIdentifier>{231C72C8-2070-331A-8693-C6836D81DA5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann\Include\opencv2">
+      <UniqueIdentifier>{68E3FE44-16BC-3687-9D87-19A193F4253D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann\Include\opencv2\flann">
+      <UniqueIdentifier>{F052540F-9820-3CDF-B198-AED022A5BA80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann\Src">
+      <UniqueIdentifier>{0960C288-41C7-3F8B-A6E5-3308224D23E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi">
+      <UniqueIdentifier>{5765C136-85E6-3692-93C1-C66BDD2CEEAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Include">
+      <UniqueIdentifier>{82D53CA6-925F-312F-B069-F92930BDF881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src">
+      <UniqueIdentifier>{C4BA1D1D-0B15-3EFA-A35A-E3142BDD5D93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc">
+      <UniqueIdentifier>{84CC3C94-F30D-3D08-943D-F3C4B8FD86EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include">
+      <UniqueIdentifier>{0785D6AF-E1FD-3C21-8181-A6E24AA945DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include\opencv2">
+      <UniqueIdentifier>{ED30AAB8-1EE9-38B7-AFB2-89EDA5D9510C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include\opencv2\imgproc">
+      <UniqueIdentifier>{7B93DAA9-8301-327F-AED9-B3BD527EBFD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include\opencv2\imgproc\detail">
+      <UniqueIdentifier>{219B0C41-B339-3947-9462-87C130CB9823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include\opencv2\imgproc\hal">
+      <UniqueIdentifier>{58E4ACE0-D87B-3D4F-9B35-4A7CA6F70ED2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src">
+      <UniqueIdentifier>{3C3094EB-4AD3-3452-8172-FA44D47458D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src\opencl">
+      <UniqueIdentifier>{C2A5F602-8869-339C-BCD5-5F930F3FDC3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src\opencl\kernels">
+      <UniqueIdentifier>{825D3EB0-160F-393F-A1BF-E27A7298853A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{2AF3F2DE-CB36-30DA-B603-33D86030A599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml">
+      <UniqueIdentifier>{40566441-7833-35EA-8FC9-292494866765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml\Include">
+      <UniqueIdentifier>{335B3025-AD46-36DB-A9FB-E1C12737B348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml\Include\opencv2">
+      <UniqueIdentifier>{54FFC133-D8B5-3FF8-B334-20A879F9A58E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml\Include\opencv2\ml">
+      <UniqueIdentifier>{28B8B6E1-5806-32CC-97BF-EAE591800F79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml\Src">
+      <UniqueIdentifier>{36948F96-C425-32C9-BC6A-D8F044373441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect">
+      <UniqueIdentifier>{E7A03E13-D9FE-3EB3-B084-FEFA1BE20D74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Include">
+      <UniqueIdentifier>{ABF524C7-1BB1-3E06-97D8-613148223480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Include\opencv2">
+      <UniqueIdentifier>{44281A77-3215-3FC4-A2FA-455D39B13E87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Include\opencv2\objdetect">
+      <UniqueIdentifier>{12FC6099-56CD-31F7-9B06-51EBC8C62A79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Src">
+      <UniqueIdentifier>{3C9823C6-B0D4-30B0-BF85-9611577E50C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Src\opencl">
+      <UniqueIdentifier>{F00C860B-5A2E-3A59-B929-9B8B18C9295F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Src\opencl\kernels">
+      <UniqueIdentifier>{24ED6162-B935-393E-AFA3-A85E2657C0A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{096CE88C-0EA3-3543-A0BD-90143DFF61E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo">
+      <UniqueIdentifier>{F1951CF8-AFCC-3FAA-A6B9-7ABF6BEBE3B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include">
+      <UniqueIdentifier>{F26EA6EE-B9B9-3716-9656-0B763A6E4620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include\opencv2">
+      <UniqueIdentifier>{B8580726-85BC-339A-A396-B7D15AC6EA71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include\opencv2\photo">
+      <UniqueIdentifier>{9499BF95-94AF-3183-82C4-580BD77D00C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include\opencv2\photo\legacy">
+      <UniqueIdentifier>{A9AE69CF-7F05-35CF-9A6C-27EF965C3442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src">
+      <UniqueIdentifier>{344C3FB0-B66C-3F3D-96BC-44CE01750608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\opencl">
+      <UniqueIdentifier>{D6B74087-BD27-3486-9214-0EDC4BD6EA7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\opencl\kernels">
+      <UniqueIdentifier>{734302FB-DB49-342E-A91D-399824491997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{E77E76D7-7CD3-3FE3-AB8B-67A2FF6F7802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching">
+      <UniqueIdentifier>{C4C16572-266D-320A-A453-1B6BAEEB0CF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Include">
+      <UniqueIdentifier>{8323121A-173E-3C2E-9523-56E2E2460043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Include\opencv2">
+      <UniqueIdentifier>{116CB3A4-401B-31A5-836D-EEF07DF2B980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Include\opencv2\stitching">
+      <UniqueIdentifier>{566213E7-5799-3726-AFE6-6E40CB337D51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Include\opencv2\stitching\detail">
+      <UniqueIdentifier>{A6D164B8-24F9-369E-89C0-49771E783776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Src">
+      <UniqueIdentifier>{6388BAAC-95B5-3006-8D5C-9E9CF919A6C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Src\opencl">
+      <UniqueIdentifier>{16508022-0C19-39FD-AD3C-B707FAC33B10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Src\opencl\kernels">
+      <UniqueIdentifier>{55E9C237-0DAB-352C-B96E-C7B4149B57DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{14477F29-CACC-39A0-A6BA-6F97FEAC54C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video">
+      <UniqueIdentifier>{9902086B-21F7-34FE-AF94-46575BBD158C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Include">
+      <UniqueIdentifier>{CE160F98-E749-3B1C-BF82-BCCD93EF69B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Include\opencv2">
+      <UniqueIdentifier>{6FE27CA2-DEDF-3B0B-BA6B-E32E861937DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Include\opencv2\video">
+      <UniqueIdentifier>{C9736619-F30F-3057-B4C7-614C41358955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Include\opencv2\video\detail">
+      <UniqueIdentifier>{DC8A9DF0-D2AF-3B3F-A8A6-FFE16C2F801C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Include\opencv2\video\legacy">
+      <UniqueIdentifier>{48ED0D8E-2127-39F8-8833-C73AC6E16E73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src">
+      <UniqueIdentifier>{C0BB5653-9512-374F-B300-B3A986930D2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\opencl">
+      <UniqueIdentifier>{0CCD78CB-97F9-3379-A107-C9F8E790398D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\opencl\kernels">
+      <UniqueIdentifier>{2242C2F4-B55F-36F5-8FF8-221B923A54F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{9D7A8092-5E14-313B-B7F5-6EF5FD6B0117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\tracking">
+      <UniqueIdentifier>{47484628-E71E-3F6B-BABD-F3948D432D14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\tracking\detail">
+      <UniqueIdentifier>{C1AC5D0C-8A9A-3C53-8C4B-236E285A1FD6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

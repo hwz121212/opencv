@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="opencl\perf_denoising.cpp">
+      <Filter>opencv_photo\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_cuda.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_inpaint.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_main.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="perf_precomp.hpp">
+      <Filter>opencv_photo\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_photo">
+      <UniqueIdentifier>{F1951CF8-AFCC-3FAA-A6B9-7ABF6BEBE3B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include">
+      <UniqueIdentifier>{F26EA6EE-B9B9-3716-9656-0B763A6E4620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src">
+      <UniqueIdentifier>{344C3FB0-B66C-3F3D-96BC-44CE01750608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\opencl">
+      <UniqueIdentifier>{D6B74087-BD27-3486-9214-0EDC4BD6EA7F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

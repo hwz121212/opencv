@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="world\accum.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\arithm.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\box_filter.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\color_hsv.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\color_rgb.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\color_yuv.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\filter.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\gfluidcore_func.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\gfluidimgproc_func.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\matmul.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\median_blur.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\morph.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\sift.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\smooth.sse4_1.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\imgwarp.sse4_1.cpp">
+      <Filter>imgproc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\resize.sse4_1.cpp">
+      <Filter>imgproc\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="world">
+      <UniqueIdentifier>{47ac2986-ef91-483a-a2f8-4c6b5faee03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgproc">
+      <UniqueIdentifier>{84CC3C94-F30D-3D08-943D-F3C4B8FD86EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgproc\src">
+      <UniqueIdentifier>{3C3094EB-4AD3-3452-8172-FA44D47458D0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

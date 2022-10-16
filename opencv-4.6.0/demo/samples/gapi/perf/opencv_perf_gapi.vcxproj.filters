@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="common\gapi_core_perf_tests.cpp">
+      <Filter>opencv_gapi\Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gapi_imgproc_perf_tests.cpp">
+      <Filter>opencv_gapi\Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gapi_render_perf_tests.cpp">
+      <Filter>opencv_gapi\Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gapi_video_perf_tests.cpp">
+      <Filter>opencv_gapi\Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu\gapi_core_perf_tests_cpu.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu\gapi_core_perf_tests_fluid.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu\gapi_imgproc_perf_tests_cpu.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu\gapi_imgproc_perf_tests_fluid.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu\gapi_video_perf_tests_cpu.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="gpu\gapi_core_perf_tests_gpu.cpp">
+      <Filter>opencv_gapi\Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="gpu\gapi_imgproc_perf_tests_gpu.cpp">
+      <Filter>opencv_gapi\Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\gapi_compiler_perf_tests.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_bench.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_main.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="render\gapi_render_perf_tests_ocv.cpp">
+      <Filter>opencv_gapi\Src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="streaming\gapi_streaming_source_perf_tests.cpp">
+      <Filter>opencv_gapi\Src\streaming</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\gapi_core_perf_tests.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gapi_core_perf_tests_inl.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gapi_imgproc_perf_tests.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gapi_imgproc_perf_tests_inl.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gapi_render_perf_tests.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gapi_render_perf_tests_inl.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gapi_video_perf_tests.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gapi_video_perf_tests_inl.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="perf_precomp.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_gapi">
+      <UniqueIdentifier>{5765C136-85E6-3692-93C1-C66BDD2CEEAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Include">
+      <UniqueIdentifier>{82D53CA6-925F-312F-B069-F92930BDF881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Include\common">
+      <UniqueIdentifier>{692C7747-607D-3069-B45C-CB3B825E2659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src">
+      <UniqueIdentifier>{C4BA1D1D-0B15-3EFA-A35A-E3142BDD5D93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\common">
+      <UniqueIdentifier>{C78D883A-689F-34C8-9AEE-62CD1F8BBE1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\cpu">
+      <UniqueIdentifier>{9C5C8584-0EF8-3774-A62C-06DEE25BDC1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\gpu">
+      <UniqueIdentifier>{554CA92F-9D76-35B1-B238-7844AC5370A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\internal">
+      <UniqueIdentifier>{C2EE1620-3DD2-3985-84C9-DFA4368F2AF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\render">
+      <UniqueIdentifier>{69DA6B5B-2E30-3AE5-A850-FB2A6F8016F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\streaming">
+      <UniqueIdentifier>{B3E8159C-CC90-3CD0-8C35-070E68679AC0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

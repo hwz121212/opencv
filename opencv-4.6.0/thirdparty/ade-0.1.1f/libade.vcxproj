@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7CFB5AD4-51D9-3E61-A371-8580050D57C3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libade</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601</PreprocessorDefinitions>
+    </ClCompile>
+    
+    
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+      <AdditionalLibraryDirectories />
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601</PreprocessorDefinitions>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    
+    
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+      <AdditionalLibraryDirectories />
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ade\communication\callback_connector.hpp" />
+    <ClInclude Include="include\ade\communication\comm_buffer.hpp" />
+    <ClInclude Include="include\ade\communication\comm_interface.hpp" />
+    <ClInclude Include="include\ade\edge.hpp" />
+    <ClInclude Include="include\ade\execution_engine\backend.hpp" />
+    <ClInclude Include="include\ade\execution_engine\executable.hpp" />
+    <ClInclude Include="include\ade\execution_engine\execution_engine.hpp" />
+    <ClInclude Include="include\ade\graph.hpp" />
+    <ClInclude Include="include\ade\graph_listener.hpp" />
+    <ClInclude Include="include\ade\handle.hpp" />
+    <ClInclude Include="include\ade\helpers\search.hpp" />
+    <ClInclude Include="include\ade\helpers\subgraphs.hpp" />
+    <ClInclude Include="include\ade\memory\alloc.hpp" />
+    <ClInclude Include="include\ade\memory\memory_access_listener.hpp" />
+    <ClInclude Include="include\ade\memory\memory_accessor.hpp" />
+    <ClInclude Include="include\ade\memory\memory_descriptor.hpp" />
+    <ClInclude Include="include\ade\memory\memory_descriptor_ref.hpp" />
+    <ClInclude Include="include\ade\memory\memory_descriptor_view.hpp" />
+    <ClInclude Include="include\ade\memory\memory_types.hpp" />
+    <ClInclude Include="include\ade\metatypes\metatypes.hpp" />
+    <ClInclude Include="include\ade\node.hpp" />
+    <ClInclude Include="include\ade\passes\check_cycles.hpp" />
+    <ClInclude Include="include\ade\passes\communications.hpp" />
+    <ClInclude Include="include\ade\passes\pass_base.hpp" />
+    <ClInclude Include="include\ade\passes\topological_sort.hpp" />
+    <ClInclude Include="include\ade\passmanager.hpp" />
+    <ClInclude Include="include\ade\typed_graph.hpp" />
+    <ClInclude Include="include\ade\typed_metadata.hpp" />
+    <ClInclude Include="include\ade\util\algorithm.hpp" />
+    <ClInclude Include="include\ade\util\assert.hpp" />
+    <ClInclude Include="include\ade\util\chain_range.hpp" />
+    <ClInclude Include="include\ade\util\checked_cast.hpp" />
+    <ClInclude Include="include\ade\util\container_helper.hpp" />
+    <ClInclude Include="include\ade\util\filter_range.hpp" />
+    <ClInclude Include="include\ade\util\func_ref.hpp" />
+    <ClInclude Include="include\ade\util\hash.hpp" />
+    <ClInclude Include="include\ade\util\intrusive_list.hpp" />
+    <ClInclude Include="include\ade\util\iota_range.hpp" />
+    <ClInclude Include="include\ade\util\map_range.hpp" />
+    <ClInclude Include="include\ade\util\math.hpp" />
+    <ClInclude Include="include\ade\util\md_cast.hpp" />
+    <ClInclude Include="include\ade\util\md_io.hpp" />
+    <ClInclude Include="include\ade\util\md_size.hpp" />
+    <ClInclude Include="include\ade\util\md_span.hpp" />
+    <ClInclude Include="include\ade\util\md_view.hpp" />
+    <ClInclude Include="include\ade\util\memory_range.hpp" />
+    <ClInclude Include="include\ade\util\range.hpp" />
+    <ClInclude Include="include\ade\util\range_iterator.hpp" />
+    <ClInclude Include="include\ade\util\tuple.hpp" />
+    <ClInclude Include="include\ade\util\type_traits.hpp" />
+    <ClInclude Include="include\ade\util\zip_range.hpp" />
+    <ClCompile Include="source\alloc.cpp" />
+    <ClCompile Include="source\assert.cpp" />
+    <ClCompile Include="source\check_cycles.cpp" />
+    <ClCompile Include="source\edge.cpp" />
+    <ClCompile Include="source\execution_engine.cpp" />
+    <ClCompile Include="source\graph.cpp" />
+    <ClCompile Include="source\memory_accessor.cpp" />
+    <ClCompile Include="source\memory_descriptor.cpp" />
+    <ClCompile Include="source\memory_descriptor_ref.cpp" />
+    <ClCompile Include="source\memory_descriptor_view.cpp" />
+    <ClCompile Include="source\metadata.cpp" />
+    <ClCompile Include="source\metatypes.cpp" />
+    <ClCompile Include="source\node.cpp" />
+    <ClCompile Include="source\passes\communications.cpp" />
+    <ClCompile Include="source\search.cpp" />
+    <ClCompile Include="source\subgraphs.cpp" />
+    <ClCompile Include="source\topological_sort.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ocl\ocl_test_arithm.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_channels.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_dft.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_gemm.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_image2d.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_matrix_expr.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_matrix_operation.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\ocl_test_opencl.cpp">
+      <Filter>opencv_core\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="test_arithm.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_async.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_concatenation.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_conjugate_gradient.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_countnonzero.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_cuda.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_downhill_simplex.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_ds.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_dxt.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_eigen.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_hal_core.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_intrin.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_intrin_emulator.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_io.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_logtagconfigparser.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_logtagmanager.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_lpsolver.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_main.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_mat.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_math.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_misc.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_opencl.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_operations.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_ptr.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_quaternion.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_rand.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_rotatedrect.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_umat.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_utils.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_intrin128.sse2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_intrin128.sse3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ref_reduce_arg.impl.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="test_intrin128.simd.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="test_intrin256.simd.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="test_intrin512.simd.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="test_intrin_utils.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="test_precomp.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="test_utils_tls.impl.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{23C1331B-3365-3651-9225-554A6841ACD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core">
+      <UniqueIdentifier>{B43E8447-6D7B-38FC-94CF-A6BFF546DF1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include">
+      <UniqueIdentifier>{190C9092-7E05-3169-A089-0486F62F502B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src">
+      <UniqueIdentifier>{0809F40B-6067-366E-9FA1-9009B80DB6AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\ocl">
+      <UniqueIdentifier>{05404EF9-F8EB-38F5-A671-FD05AE051F50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1B47649-6AA3-3174-991B-AAA5D0A8490B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..;world;gapi\src;$(SolutionDir)include\opencl-headers-2022.05.18;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\protobuf-21.2\src;$(SolutionDir)thirdparty\ittnotify-1.0\include;$(SolutionDir)thirdparty\ade-0.1.1f\include;$(SolutionDir)thirdparty\quirc\include;$(SolutionDir)thirdparty\openexr-2.2.0;$(SolutionDir)thirdparty\openexr-2.2.0\IlmImf;$(SolutionDir)thirdparty\openexr-2.2.0\Imath;$(SolutionDir)thirdparty\openexr-2.2.0\Iex;$(SolutionDir)thirdparty\openexr-2.2.0\Half;$(SolutionDir)thirdparty\openjpeg-2.5.0\include;$(SolutionDir)thirdparty\jpeg-turbo-2.1.3\include;$(SolutionDir)thirdparty\png1637\include;$(SolutionDir)thirdparty\tiff-4.4.0\include;$(SolutionDir)thirdparty\webp-1.2.2\src</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4244;4267;4018;4355;4800;4251;4996;4146;4305;4127;4100;4512;4125;4389;4510;4610;4702;4456;4457;4065;4310;4661;4506;4309;4189;4592;4125;4267;4127;4244;4512;4702;4456;4510;4610;4800;4701;4703;4505;4458</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;ENABLE_PLUGINS;OPENCV_WITH_ITT=1;OPENCV_MODULE_IS_PART_OF_WORLD=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;CV_OCL4DNN=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;OPJ_STATIC;HAVE_DSHOW;HAVE_MSMF;HAVE_MSMF_DXVA;HAVE_WIN32UI;CVAPI_EXPORTS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libprotobuf.lib;libprotoc.lib;libturbojpeg.lib;libwebp.lib;libpng.lib;libtiff.lib;libopenjpeg.lib;libopenexr.lib;libzlib.lib;libittnotify.lib;libquirc.lib;libade.lib;libopencv_world_AVX.lib;libopencv_world_AVX2.lib;libopencv_world_AVX512_SKX.lib;libopencv_world_SSE4_1.lib;libopencv_world_SSE4_2.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;wsock32.lib;user32.lib;kernel32.lib;winspool.lib;shell32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..;world;gapi\src;$(SolutionDir)include\opencl-headers-2022.05.18;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\protobuf-21.2\src;$(SolutionDir)thirdparty\ittnotify-1.0\include;$(SolutionDir)thirdparty\ade-0.1.1f\include;$(SolutionDir)thirdparty\quirc\include;$(SolutionDir)thirdparty\openexr-2.2.0;$(SolutionDir)thirdparty\openexr-2.2.0\IlmImf;$(SolutionDir)thirdparty\openexr-2.2.0\Imath;$(SolutionDir)thirdparty\openexr-2.2.0\Iex;$(SolutionDir)thirdparty\openexr-2.2.0\Half;$(SolutionDir)thirdparty\openjpeg-2.5.0\include;$(SolutionDir)thirdparty\jpeg-turbo-2.1.3\include;$(SolutionDir)thirdparty\png1637\include;$(SolutionDir)thirdparty\tiff-4.4.0\include;$(SolutionDir)thirdparty\webp-1.2.2\src</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4244;4267;4018;4355;4800;4251;4996;4146;4305;4127;4100;4512;4125;4389;4510;4610;4702;4456;4457;4065;4310;4661;4506;4309;4189;4592;4125;4267;4127;4244;4512;4702;4456;4510;4610;4800;4701;4703;4505;4458</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;ENABLE_PLUGINS;OPENCV_WITH_ITT=1;OPENCV_MODULE_IS_PART_OF_WORLD=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;CV_OCL4DNN=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;OPJ_STATIC;HAVE_DSHOW;HAVE_MSMF;HAVE_MSMF_DXVA;HAVE_WIN32UI;CVAPI_EXPORTS</PreprocessorDefinitions>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libprotobuf.lib;libprotoc.lib;libturbojpeg.lib;libwebp.lib;libpng.lib;libtiff.lib;libopenjpeg.lib;libopenexr.lib;libzlib.lib;libittnotify.lib;libquirc.lib;libade.lib;libopencv_world_AVX.lib;libopencv_world_AVX2.lib;libopencv_world_AVX512_SKX.lib;libopencv_world_SSE4_1.lib;libopencv_world_SSE4_2.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;wsock32.lib;user32.lib;kernel32.lib;winspool.lib;shell32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calib3d.hpp" />
+    <ClInclude Include="calib3d\calib3d.hpp" />
+    <ClInclude Include="calib3d\calib3d_c.h" />
+    <ClInclude Include="core.hpp" />
+    <ClInclude Include="core\affine.hpp" />
+    <ClInclude Include="core\async.hpp" />
+    <ClInclude Include="core\base.hpp" />
+    <ClInclude Include="core\bindings_utils.hpp" />
+    <ClInclude Include="core\bufferpool.hpp" />
+    <ClInclude Include="core\check.hpp" />
+    <ClInclude Include="core\core.hpp" />
+    <ClInclude Include="core\core_c.h" />
+    <ClInclude Include="core\cuda.hpp" />
+    <ClInclude Include="core\cuda.inl.hpp" />
+    <ClInclude Include="core\cuda\block.hpp" />
+    <ClInclude Include="core\cuda\border_interpolate.hpp" />
+    <ClInclude Include="core\cuda\color.hpp" />
+    <ClInclude Include="core\cuda\common.hpp" />
+    <ClInclude Include="core\cuda\datamov_utils.hpp" />
+    <ClInclude Include="core\cuda\detail\color_detail.hpp" />
+    <ClInclude Include="core\cuda\detail\reduce.hpp" />
+    <ClInclude Include="core\cuda\detail\reduce_key_val.hpp" />
+    <ClInclude Include="core\cuda\detail\transform_detail.hpp" />
+    <ClInclude Include="core\cuda\detail\type_traits_detail.hpp" />
+    <ClInclude Include="core\cuda\detail\vec_distance_detail.hpp" />
+    <ClInclude Include="core\cuda\dynamic_smem.hpp" />
+    <ClInclude Include="core\cuda\emulation.hpp" />
+    <ClInclude Include="core\cuda\filters.hpp" />
+    <ClInclude Include="core\cuda\funcattrib.hpp" />
+    <ClInclude Include="core\cuda\functional.hpp" />
+    <ClInclude Include="core\cuda\limits.hpp" />
+    <ClInclude Include="core\cuda\reduce.hpp" />
+    <ClInclude Include="core\cuda\saturate_cast.hpp" />
+    <ClInclude Include="core\cuda\scan.hpp" />
+    <ClInclude Include="core\cuda\simd_functions.hpp" />
+    <ClInclude Include="core\cuda\transform.hpp" />
+    <ClInclude Include="core\cuda\type_traits.hpp" />
+    <ClInclude Include="core\cuda\utility.hpp" />
+    <ClInclude Include="core\cuda\vec_distance.hpp" />
+    <ClInclude Include="core\cuda\vec_math.hpp" />
+    <ClInclude Include="core\cuda\vec_traits.hpp" />
+    <ClInclude Include="core\cuda\warp.hpp" />
+    <ClInclude Include="core\cuda\warp_reduce.hpp" />
+    <ClInclude Include="core\cuda\warp_shuffle.hpp" />
+    <ClInclude Include="core\cuda_stream_accessor.hpp" />
+    <ClInclude Include="core\cuda_types.hpp" />
+    <ClInclude Include="core\cv_cpu_dispatch.h" />
+    <ClInclude Include="core\cv_cpu_helper.h" />
+    <ClInclude Include="core\cvdef.h" />
+    <ClInclude Include="core\cvstd.hpp" />
+    <ClInclude Include="core\cvstd.inl.hpp" />
+    <ClInclude Include="core\cvstd_wrapper.hpp" />
+    <ClInclude Include="core\detail\async_promise.hpp" />
+    <ClInclude Include="core\detail\dispatch_helper.impl.hpp" />
+    <ClInclude Include="core\detail\exception_ptr.hpp" />
+    <ClInclude Include="core\directx.hpp" />
+    <ClInclude Include="core\dualquaternion.hpp" />
+    <ClInclude Include="core\dualquaternion.inl.hpp" />
+    <ClInclude Include="core\eigen.hpp" />
+    <ClInclude Include="core\fast_math.hpp" />
+    <ClInclude Include="core\hal\hal.hpp" />
+    <ClInclude Include="core\hal\interface.h" />
+    <ClInclude Include="core\hal\intrin.hpp" />
+    <ClInclude Include="core\hal\intrin_avx.hpp" />
+    <ClInclude Include="core\hal\intrin_avx512.hpp" />
+    <ClInclude Include="core\hal\intrin_cpp.hpp" />
+    <ClInclude Include="core\hal\intrin_forward.hpp" />
+    <ClInclude Include="core\hal\intrin_msa.hpp" />
+    <ClInclude Include="core\hal\intrin_neon.hpp" />
+    <ClInclude Include="core\hal\intrin_rvv.hpp" />
+    <ClInclude Include="core\hal\intrin_rvv071.hpp" />
+    <ClInclude Include="core\hal\intrin_sse.hpp" />
+    <ClInclude Include="core\hal\intrin_sse_em.hpp" />
+    <ClInclude Include="core\hal\intrin_vsx.hpp" />
+    <ClInclude Include="core\hal\intrin_wasm.hpp" />
+    <ClInclude Include="core\hal\msa_macros.h" />
+    <ClInclude Include="core\hal\simd_utils.impl.hpp" />
+    <ClInclude Include="core\mat.hpp" />
+    <ClInclude Include="core\mat.inl.hpp" />
+    <ClInclude Include="core\matx.hpp" />
+    <ClInclude Include="core\neon_utils.hpp" />
+    <ClInclude Include="core\ocl.hpp" />
+    <ClInclude Include="core\ocl_genbase.hpp" />
+    <ClInclude Include="core\opencl\ocl_defs.hpp" />
+    <ClInclude Include="core\opencl\opencl_info.hpp" />
+    <ClInclude Include="core\opencl\opencl_svm.hpp" />
+    <ClInclude Include="core\opencl\runtime\autogenerated\opencl_clblas.hpp" />
+    <ClInclude Include="core\opencl\runtime\autogenerated\opencl_clfft.hpp" />
+    <ClInclude Include="core\opencl\runtime\autogenerated\opencl_core.hpp" />
+    <ClInclude Include="core\opencl\runtime\autogenerated\opencl_core_wrappers.hpp" />
+    <ClInclude Include="core\opencl\runtime\autogenerated\opencl_gl.hpp" />
+    <ClInclude Include="core\opencl\runtime\autogenerated\opencl_gl_wrappers.hpp" />
+    <ClInclude Include="core\opencl\runtime\opencl_clblas.hpp" />
+    <ClInclude Include="core\opencl\runtime\opencl_clfft.hpp" />
+    <ClInclude Include="core\opencl\runtime\opencl_core.hpp" />
+    <ClInclude Include="core\opencl\runtime\opencl_core_wrappers.hpp" />
+    <ClInclude Include="core\opencl\runtime\opencl_gl.hpp" />
+    <ClInclude Include="core\opencl\runtime\opencl_gl_wrappers.hpp" />
+    <ClInclude Include="core\opencl\runtime\opencl_svm_20.hpp" />
+    <ClInclude Include="core\opencl\runtime\opencl_svm_definitions.hpp" />
+    <ClInclude Include="core\opencl\runtime\opencl_svm_hsa_extension.hpp" />
+    <ClInclude Include="core\opengl.hpp" />
+    <ClInclude Include="core\operations.hpp" />
+    <ClInclude Include="core\optim.hpp" />
+    <ClInclude Include="core\ovx.hpp" />
+    <ClInclude Include="core\parallel\backend\parallel_for.openmp.hpp" />
+    <ClInclude Include="core\parallel\backend\parallel_for.tbb.hpp" />
+    <ClInclude Include="core\parallel\parallel_backend.hpp" />
+    <ClInclude Include="core\persistence.hpp" />
+    <ClInclude Include="core\private.cuda.hpp" />
+    <ClInclude Include="core\private.hpp" />
+    <ClInclude Include="core\quaternion.hpp" />
+    <ClInclude Include="core\quaternion.inl.hpp" />
+    <ClInclude Include="core\saturate.hpp" />
+    <ClInclude Include="core\simd_intrinsics.hpp" />
+    <ClInclude Include="core\softfloat.hpp" />
+    <ClInclude Include="core\sse_utils.hpp" />
+    <ClInclude Include="core\traits.hpp" />
+    <ClInclude Include="core\types.hpp" />
+    <ClInclude Include="core\types_c.h" />
+    <ClInclude Include="core\utility.hpp" />
+    <ClInclude Include="core\utils\allocator_stats.hpp" />
+    <ClInclude Include="core\utils\allocator_stats.impl.hpp" />
+    <ClInclude Include="core\utils\buffer_area.private.hpp" />
+    <ClInclude Include="core\utils\configuration.private.hpp" />
+    <ClInclude Include="core\utils\filesystem.hpp" />
+    <ClInclude Include="core\utils\filesystem.private.hpp" />
+    <ClInclude Include="core\utils\fp_control.private.hpp" />
+    <ClInclude Include="core\utils\fp_control_utils.hpp" />
+    <ClInclude Include="core\utils\instrumentation.hpp" />
+    <ClInclude Include="core\utils\lock.private.hpp" />
+    <ClInclude Include="core\utils\logger.defines.hpp" />
+    <ClInclude Include="core\utils\logger.hpp" />
+    <ClInclude Include="core\utils\logtag.hpp" />
+    <ClInclude Include="core\utils\plugin_loader.private.hpp" />
+    <ClInclude Include="core\utils\tls.hpp" />
+    <ClInclude Include="core\utils\trace.hpp" />
+    <ClInclude Include="core\utils\trace.private.hpp" />
+    <ClInclude Include="core\va_intel.hpp" />
+    <ClInclude Include="core\version.hpp" />
+    <ClInclude Include="core\vsx_utils.hpp" />
+    <ClInclude Include="dnn.hpp" />
+    <ClInclude Include="dnn\all_layers.hpp" />
+    <ClInclude Include="dnn\dict.hpp" />
+    <ClInclude Include="dnn\dnn.hpp" />
+    <ClInclude Include="dnn\dnn.inl.hpp" />
+    <ClInclude Include="dnn\layer.details.hpp" />
+    <ClInclude Include="dnn\layer.hpp" />
+    <ClInclude Include="dnn\layer_reg.private.hpp" />
+    <ClInclude Include="dnn\shape_utils.hpp" />
+    <ClInclude Include="dnn\utils\debug_utils.hpp" />
+    <ClInclude Include="dnn\utils\inference_engine.hpp" />
+    <ClInclude Include="dnn\version.hpp" />
+    <ClInclude Include="dnn\src\caffe\opencv-caffe.pb.h" />
+    <ClInclude Include="dnn\src\onnx\opencv-onnx.pb.h" />
+    <ClInclude Include="dnn\src\tensorflow\attr_value.pb.h" />
+    <ClInclude Include="dnn\src\tensorflow\function.pb.h" />
+    <ClInclude Include="dnn\src\tensorflow\graph.pb.h" />
+    <ClInclude Include="dnn\src\tensorflow\op_def.pb.h" />
+    <ClInclude Include="dnn\src\tensorflow\tensor.pb.h" />
+    <ClInclude Include="dnn\src\tensorflow\tensor_shape.pb.h" />
+    <ClInclude Include="dnn\src\tensorflow\types.pb.h" />
+    <ClInclude Include="dnn\src\tensorflow\versions.pb.h" />
+    <ClInclude Include="features2d.hpp" />
+    <ClInclude Include="features2d\features2d.hpp" />
+    <ClInclude Include="features2d\hal\interface.h" />
+    <ClInclude Include="flann.hpp" />
+    <ClInclude Include="flann\all_indices.h" />
+    <ClInclude Include="flann\allocator.h" />
+    <ClInclude Include="flann\any.h" />
+    <ClInclude Include="flann\autotuned_index.h" />
+    <ClInclude Include="flann\composite_index.h" />
+    <ClInclude Include="flann\config.h" />
+    <ClInclude Include="flann\defines.h" />
+    <ClInclude Include="flann\dist.h" />
+    <ClInclude Include="flann\dummy.h" />
+    <ClInclude Include="flann\dynamic_bitset.h" />
+    <ClInclude Include="flann\flann.hpp" />
+    <ClInclude Include="flann\flann_base.hpp" />
+    <ClInclude Include="flann\general.h" />
+    <ClInclude Include="flann\ground_truth.h" />
+    <ClInclude Include="flann\hdf5.h" />
+    <ClInclude Include="flann\heap.h" />
+    <ClInclude Include="flann\hierarchical_clustering_index.h" />
+    <ClInclude Include="flann\index_testing.h" />
+    <ClInclude Include="flann\kdtree_index.h" />
+    <ClInclude Include="flann\kdtree_single_index.h" />
+    <ClInclude Include="flann\kmeans_index.h" />
+    <ClInclude Include="flann\linear_index.h" />
+    <ClInclude Include="flann\logger.h" />
+    <ClInclude Include="flann\lsh_index.h" />
+    <ClInclude Include="flann\lsh_table.h" />
+    <ClInclude Include="flann\matrix.h" />
+    <ClInclude Include="flann\miniflann.hpp" />
+    <ClInclude Include="flann\nn_index.h" />
+    <ClInclude Include="flann\object_factory.h" />
+    <ClInclude Include="flann\params.h" />
+    <ClInclude Include="flann\random.h" />
+    <ClInclude Include="flann\result_set.h" />
+    <ClInclude Include="flann\sampling.h" />
+    <ClInclude Include="flann\saving.h" />
+    <ClInclude Include="flann\simplex_downhill.h" />
+    <ClInclude Include="flann\timer.h" />
+    <ClInclude Include="gapi.hpp" />
+    <ClInclude Include="gapi\core.hpp" />
+    <ClInclude Include="gapi\cpu\core.hpp" />
+    <ClInclude Include="gapi\cpu\gcpukernel.hpp" />
+    <ClInclude Include="gapi\cpu\imgproc.hpp" />
+    <ClInclude Include="gapi\cpu\stereo.hpp" />
+    <ClInclude Include="gapi\cpu\video.hpp" />
+    <ClInclude Include="gapi\fluid\core.hpp" />
+    <ClInclude Include="gapi\fluid\gfluidbuffer.hpp" />
+    <ClInclude Include="gapi\fluid\gfluidkernel.hpp" />
+    <ClInclude Include="gapi\fluid\imgproc.hpp" />
+    <ClInclude Include="gapi\garg.hpp" />
+    <ClInclude Include="gapi\garray.hpp" />
+    <ClInclude Include="gapi\gasync_context.hpp" />
+    <ClInclude Include="gapi\gcall.hpp" />
+    <ClInclude Include="gapi\gcommon.hpp" />
+    <ClInclude Include="gapi\gcompiled.hpp" />
+    <ClInclude Include="gapi\gcompiled_async.hpp" />
+    <ClInclude Include="gapi\gcompoundkernel.hpp" />
+    <ClInclude Include="gapi\gcomputation.hpp" />
+    <ClInclude Include="gapi\gcomputation_async.hpp" />
+    <ClInclude Include="gapi\gframe.hpp" />
+    <ClInclude Include="gapi\gkernel.hpp" />
+    <ClInclude Include="gapi\gmat.hpp" />
+    <ClInclude Include="gapi\gmetaarg.hpp" />
+    <ClInclude Include="gapi\gopaque.hpp" />
+    <ClInclude Include="gapi\gproto.hpp" />
+    <ClInclude Include="gapi\gpu\core.hpp" />
+    <ClInclude Include="gapi\gpu\ggpukernel.hpp" />
+    <ClInclude Include="gapi\gpu\imgproc.hpp" />
+    <ClInclude Include="gapi\gscalar.hpp" />
+    <ClInclude Include="gapi\gstreaming.hpp" />
+    <ClInclude Include="gapi\gtransform.hpp" />
+    <ClInclude Include="gapi\gtype_traits.hpp" />
+    <ClInclude Include="gapi\gtyped.hpp" />
+    <ClInclude Include="gapi\imgproc.hpp" />
+    <ClInclude Include="gapi\infer.hpp" />
+    <ClInclude Include="gapi\infer\bindings_ie.hpp" />
+    <ClInclude Include="gapi\infer\ie.hpp" />
+    <ClInclude Include="gapi\infer\onnx.hpp" />
+    <ClInclude Include="gapi\infer\parsers.hpp" />
+    <ClInclude Include="gapi\media.hpp" />
+    <ClInclude Include="gapi\oak\infer.hpp" />
+    <ClInclude Include="gapi\oak\oak.hpp" />
+    <ClInclude Include="gapi\ocl\core.hpp" />
+    <ClInclude Include="gapi\ocl\goclkernel.hpp" />
+    <ClInclude Include="gapi\ocl\imgproc.hpp" />
+    <ClInclude Include="gapi\opencv_includes.hpp" />
+    <ClInclude Include="gapi\operators.hpp" />
+    <ClInclude Include="gapi\own\assert.hpp" />
+    <ClInclude Include="gapi\own\convert.hpp" />
+    <ClInclude Include="gapi\own\cvdefs.hpp" />
+    <ClInclude Include="gapi\own\exports.hpp" />
+    <ClInclude Include="gapi\own\mat.hpp" />
+    <ClInclude Include="gapi\own\saturate.hpp" />
+    <ClInclude Include="gapi\own\scalar.hpp" />
+    <ClInclude Include="gapi\own\types.hpp" />
+    <ClInclude Include="gapi\plaidml\core.hpp" />
+    <ClInclude Include="gapi\plaidml\gplaidmlkernel.hpp" />
+    <ClInclude Include="gapi\plaidml\plaidml.hpp" />
+    <ClInclude Include="gapi\python\python.hpp" />
+    <ClInclude Include="gapi\render.hpp" />
+    <ClInclude Include="gapi\render\render.hpp" />
+    <ClInclude Include="gapi\render\render_types.hpp" />
+    <ClInclude Include="gapi\rmat.hpp" />
+    <ClInclude Include="gapi\s11n.hpp" />
+    <ClInclude Include="gapi\s11n\base.hpp" />
+    <ClInclude Include="gapi\stereo.hpp" />
+    <ClInclude Include="gapi\streaming\cap.hpp" />
+    <ClInclude Include="gapi\streaming\desync.hpp" />
+    <ClInclude Include="gapi\streaming\format.hpp" />
+    <ClInclude Include="gapi\streaming\gstreamer\gstreamerpipeline.hpp" />
+    <ClInclude Include="gapi\streaming\gstreamer\gstreamersource.hpp" />
+    <ClInclude Include="gapi\streaming\meta.hpp" />
+    <ClInclude Include="gapi\streaming\onevpl\accel_types.hpp" />
+    <ClInclude Include="gapi\streaming\onevpl\cfg_params.hpp" />
+    <ClInclude Include="gapi\streaming\onevpl\data_provider_interface.hpp" />
+    <ClInclude Include="gapi\streaming\onevpl\device_selector_interface.hpp" />
+    <ClInclude Include="gapi\streaming\onevpl\source.hpp" />
+    <ClInclude Include="gapi\streaming\source.hpp" />
+    <ClInclude Include="gapi\streaming\sync.hpp" />
+    <ClInclude Include="gapi\util\any.hpp" />
+    <ClInclude Include="gapi\util\compiler_hints.hpp" />
+    <ClInclude Include="gapi\util\copy_through_move.hpp" />
+    <ClInclude Include="gapi\util\optional.hpp" />
+    <ClInclude Include="gapi\util\throw.hpp" />
+    <ClInclude Include="gapi\util\type_traits.hpp" />
+    <ClInclude Include="gapi\util\util.hpp" />
+    <ClInclude Include="gapi\util\variant.hpp" />
+    <ClInclude Include="gapi\video.hpp" />
+    <ClInclude Include="highgui.hpp" />
+    <ClInclude Include="highgui\highgui.hpp" />
+    <ClInclude Include="highgui\highgui_c.h" />
+    <ClInclude Include="imgcodecs.hpp" />
+    <ClInclude Include="imgcodecs\imgcodecs.hpp" />
+    <ClInclude Include="imgcodecs\imgcodecs_c.h" />
+    <ClInclude Include="imgcodecs\ios.h" />
+    <ClInclude Include="imgcodecs\legacy\constants_c.h" />
+    <ClInclude Include="imgcodecs\macosx.h" />
+    <ClInclude Include="imgproc.hpp" />
+    <ClInclude Include="imgproc\bindings.hpp" />
+    <ClInclude Include="imgproc\detail\gcgraph.hpp" />
+    <ClInclude Include="imgproc\hal\hal.hpp" />
+    <ClInclude Include="imgproc\hal\interface.h" />
+    <ClInclude Include="imgproc\imgproc.hpp" />
+    <ClInclude Include="imgproc\imgproc_c.h" />
+    <ClInclude Include="imgproc\segmentation.hpp" />
+    <ClInclude Include="imgproc\types_c.h" />
+    <ClInclude Include="ml.hpp" />
+    <ClInclude Include="ml\ml.hpp" />
+    <ClInclude Include="ml\ml.inl.hpp" />
+    <ClInclude Include="objdetect.hpp" />
+    <ClInclude Include="objdetect\detection_based_tracker.hpp" />
+    <ClInclude Include="objdetect\face.hpp" />
+    <ClInclude Include="objdetect\objdetect.hpp" />
+    <ClInclude Include="photo.hpp" />
+    <ClInclude Include="photo\cuda.hpp" />
+    <ClInclude Include="photo\legacy\constants_c.h" />
+    <ClInclude Include="photo\photo.hpp" />
+    <ClInclude Include="stitching.hpp" />
+    <ClInclude Include="stitching\detail\autocalib.hpp" />
+    <ClInclude Include="stitching\detail\blenders.hpp" />
+    <ClInclude Include="stitching\detail\camera.hpp" />
+    <ClInclude Include="stitching\detail\exposure_compensate.hpp" />
+    <ClInclude Include="stitching\detail\matchers.hpp" />
+    <ClInclude Include="stitching\detail\motion_estimators.hpp" />
+    <ClInclude Include="stitching\detail\seam_finders.hpp" />
+    <ClInclude Include="stitching\detail\timelapsers.hpp" />
+    <ClInclude Include="stitching\detail\util.hpp" />
+    <ClInclude Include="stitching\detail\util_inl.hpp" />
+    <ClInclude Include="stitching\detail\warpers.hpp" />
+    <ClInclude Include="stitching\detail\warpers_inl.hpp" />
+    <ClInclude Include="stitching\warpers.hpp" />
+    <ClInclude Include="video.hpp" />
+    <ClInclude Include="video\background_segm.hpp" />
+    <ClInclude Include="video\detail\tracking.detail.hpp" />
+    <ClInclude Include="video\legacy\constants_c.h" />
+    <ClInclude Include="video\tracking.hpp" />
+    <ClInclude Include="video\video.hpp" />
+    <ClInclude Include="videoio.hpp" />
+    <ClInclude Include="videoio\cap_ios.h" />
+    <ClInclude Include="videoio\container_avi.private.hpp" />
+    <ClInclude Include="videoio\legacy\constants_c.h" />
+    <ClInclude Include="videoio\registry.hpp" />
+    <ClInclude Include="videoio\videoio.hpp" />
+    <ClInclude Include="videoio\videoio_c.h" />
+    <ClInclude Include="videoio\src\cap_dshow.hpp" />
+    <ClInclude Include="videoio\src\precomp.hpp" />
+    <ClInclude Include="world.hpp" />
+    <None Include="version_string.inc">
+    </None>
+    <ClCompile Include="core\src\algorithm.cpp" />
+    <ClCompile Include="core\src\alloc.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);HAVE_MALLOC_H=1;HAVE_WIN32_ALIGNED_MALLOC=1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);HAVE_MALLOC_H=1;HAVE_WIN32_ALIGNED_MALLOC=1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="core\src\arithm.cpp" />
+    <ClCompile Include="core\src\arithm.dispatch.cpp" />
+    <ClCompile Include="core\src\array.cpp" />
+    <ClCompile Include="core\src\async.cpp" />
+    <ClCompile Include="core\src\batch_distance.cpp" />
+    <ClCompile Include="core\src\bindings_utils.cpp" />
+    <ClCompile Include="core\src\buffer_area.cpp" />
+    <ClCompile Include="core\src\channels.cpp" />
+    <ClCompile Include="core\src\check.cpp" />
+    <ClCompile Include="core\src\command_line_parser.cpp" />
+    <ClCompile Include="core\src\conjugate_gradient.cpp" />
+    <ClCompile Include="core\src\convert.dispatch.cpp" />
+    <ClCompile Include="core\src\convert_c.cpp" />
+    <ClCompile Include="core\src\convert_scale.dispatch.cpp" />
+    <ClCompile Include="core\src\copy.cpp" />
+    <ClCompile Include="core\src\count_non_zero.dispatch.cpp" />
+    <ClCompile Include="core\src\cuda_gpu_mat.cpp" />
+    <ClCompile Include="core\src\cuda_gpu_mat_nd.cpp" />
+    <ClCompile Include="core\src\cuda_host_mem.cpp" />
+    <ClCompile Include="core\src\cuda_info.cpp" />
+    <ClCompile Include="core\src\cuda_stream.cpp" />
+    <ClCompile Include="core\src\datastructs.cpp" />
+    <ClCompile Include="core\src\directx.cpp" />
+    <ClCompile Include="core\src\downhill_simplex.cpp" />
+    <ClCompile Include="core\src\dxt.cpp" />
+    <ClCompile Include="core\src\gl_core_3_1.cpp" />
+    <ClCompile Include="core\src\glob.cpp" />
+    <ClCompile Include="core\src\hal_internal.cpp" />
+    <ClCompile Include="core\src\kmeans.cpp" />
+    <ClCompile Include="core\src\lapack.cpp" />
+    <ClCompile Include="core\src\lda.cpp" />
+    <ClCompile Include="core\src\logger.cpp" />
+    <ClCompile Include="core\src\lpsolver.cpp" />
+    <ClCompile Include="core\src\lut.cpp" />
+    <ClCompile Include="core\src\mathfuncs.cpp" />
+    <ClCompile Include="core\src\mathfuncs_core.dispatch.cpp" />
+    <ClCompile Include="core\src\matmul.dispatch.cpp" />
+    <ClCompile Include="core\src\matrix.cpp" />
+    <ClCompile Include="core\src\matrix_c.cpp" />
+    <ClCompile Include="core\src\matrix_decomp.cpp" />
+    <ClCompile Include="core\src\matrix_expressions.cpp" />
+    <ClCompile Include="core\src\matrix_iterator.cpp" />
+    <ClCompile Include="core\src\matrix_operations.cpp" />
+    <ClCompile Include="core\src\matrix_sparse.cpp" />
+    <ClCompile Include="core\src\matrix_transform.cpp" />
+    <ClCompile Include="core\src\matrix_wrap.cpp" />
+    <ClCompile Include="core\src\mean.dispatch.cpp" />
+    <ClCompile Include="core\src\merge.dispatch.cpp" />
+    <ClCompile Include="core\src\minmax.cpp" />
+    <ClCompile Include="core\src\norm.cpp" />
+    <ClCompile Include="core\src\ocl.cpp" />
+    <ClCompile Include="core\src\opencl\runtime\opencl_clblas.cpp" />
+    <ClCompile Include="core\src\opencl\runtime\opencl_clfft.cpp" />
+    <ClCompile Include="core\src\opencl\runtime\opencl_core.cpp" />
+    <ClCompile Include="core\src\opengl.cpp" />
+    <ClCompile Include="core\src\out.cpp" />
+    <ClCompile Include="core\src\ovx.cpp" />
+    <ClCompile Include="core\src\core_parallel.cpp">
+    </ClCompile>
+    <ClCompile Include="core\src\parallel\parallel.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);PARALLEL_ENABLE_PLUGINS=1;DEBUG_POSTFIX=d</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);PARALLEL_ENABLE_PLUGINS=1;DEBUG_POSTFIX=d</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="core\src\parallel\parallel_openmp.cpp" />
+    <ClCompile Include="core\src\parallel\parallel_tbb.cpp" />
+    <ClCompile Include="core\src\parallel_impl.cpp" />
+    <ClCompile Include="core\src\pca.cpp" />
+    <ClCompile Include="core\src\persistence.cpp" />
+    <ClCompile Include="core\src\persistence_base64_encoding.cpp" />
+    <ClCompile Include="core\src\persistence_json.cpp" />
+    <ClCompile Include="core\src\persistence_types.cpp" />
+    <ClCompile Include="core\src\persistence_xml.cpp" />
+    <ClCompile Include="core\src\persistence_yml.cpp" />
+    <ClCompile Include="core\src\rand.cpp" />
+    <ClCompile Include="core\src\softfloat.cpp" />
+    <ClCompile Include="core\src\split.dispatch.cpp" />
+    <ClCompile Include="core\src\stat.dispatch.cpp" />
+    <ClCompile Include="core\src\stat_c.cpp" />
+    <ClCompile Include="core\src\stl.cpp" />
+    <ClCompile Include="core\src\sum.dispatch.cpp" />
+    <ClCompile Include="core\src\system.cpp" />
+    <ClCompile Include="core\src\core_tables.cpp">
+    </ClCompile>
+    <ClCompile Include="core\src\trace.cpp" />
+    <ClCompile Include="core\src\types.cpp" />
+    <ClCompile Include="core\src\umatrix.cpp" />
+    <ClCompile Include="core\src\utils\datafile.cpp" />
+    <ClCompile Include="core\src\utils\filesystem.cpp" />
+    <ClCompile Include="core\src\utils\logtagconfigparser.cpp" />
+    <ClCompile Include="core\src\utils\logtagmanager.cpp" />
+    <ClCompile Include="core\src\utils\samples.cpp" />
+    <ClCompile Include="core\src\va_intel.cpp" />
+    <None Include="core\src\opencl\arithm.cl">
+    </None>
+    <None Include="core\src\opencl\convert.cl">
+    </None>
+    <None Include="core\src\opencl\copymakeborder.cl">
+    </None>
+    <None Include="core\src\opencl\copyset.cl">
+    </None>
+    <None Include="core\src\opencl\cvtclr_dx.cl">
+    </None>
+    <None Include="core\src\opencl\fft.cl">
+    </None>
+    <None Include="core\src\opencl\flip.cl">
+    </None>
+    <None Include="core\src\opencl\gemm.cl">
+    </None>
+    <None Include="core\src\opencl\halfconvert.cl">
+    </None>
+    <None Include="core\src\opencl\inrange.cl">
+    </None>
+    <None Include="core\src\opencl\intel_gemm.cl">
+    </None>
+    <None Include="core\src\opencl\lut.cl">
+    </None>
+    <None Include="core\src\opencl\meanstddev.cl">
+    </None>
+    <None Include="core\src\opencl\minmaxloc.cl">
+    </None>
+    <None Include="core\src\opencl\mixchannels.cl">
+    </None>
+    <None Include="core\src\opencl\mulspectrums.cl">
+    </None>
+    <None Include="core\src\opencl\normalize.cl">
+    </None>
+    <None Include="core\src\opencl\reduce.cl">
+    </None>
+    <None Include="core\src\opencl\reduce2.cl">
+    </None>
+    <None Include="core\src\opencl\repeat.cl">
+    </None>
+    <None Include="core\src\opencl\set_identity.cl">
+    </None>
+    <None Include="core\src\opencl\split_merge.cl">
+    </None>
+    <None Include="core\src\opencl\transpose.cl">
+    </None>
+    <ClCompile Include="dnn\src\caffe\opencv-caffe.pb.cc" />
+    <ClCompile Include="dnn\src\onnx\opencv-onnx.pb.cc" />
+    <ClCompile Include="dnn\src\tensorflow\attr_value.pb.cc" />
+    <ClCompile Include="dnn\src\tensorflow\function.pb.cc" />
+    <ClCompile Include="dnn\src\tensorflow\graph.pb.cc" />
+    <ClCompile Include="dnn\src\tensorflow\op_def.pb.cc" />
+    <ClCompile Include="dnn\src\tensorflow\tensor.pb.cc" />
+    <ClCompile Include="dnn\src\tensorflow\tensor_shape.pb.cc" />
+    <ClCompile Include="dnn\src\tensorflow\types.pb.cc" />
+    <ClCompile Include="dnn\src\tensorflow\versions.pb.cc" />
+    <ClCompile Include="world\opencl_kernels_core.cpp" />
+    <ClInclude Include="world\opencl_kernels_core.hpp" />
+    <ClInclude Include="core\src\arithm.simd.hpp" />
+    <ClInclude Include="core\src\arithm_ipp.hpp" />
+    <ClInclude Include="core\src\bufferpool.impl.hpp" />
+    <ClInclude Include="core\src\convert.hpp" />
+    <ClInclude Include="core\src\convert.simd.hpp" />
+    <ClInclude Include="core\src\convert_scale.simd.hpp" />
+    <ClInclude Include="core\src\count_non_zero.simd.hpp" />
+    <ClInclude Include="core\src\directx.inc.hpp" />
+    <ClInclude Include="core\src\gl_core_3_1.hpp" />
+    <ClInclude Include="core\src\hal_internal.hpp" />
+    <ClInclude Include="core\src\hal_replacement.hpp" />
+    <ClInclude Include="core\src\intel_gpu_gemm.inl.hpp" />
+    <ClInclude Include="core\src\mathfuncs.hpp" />
+    <ClInclude Include="core\src\mathfuncs_core.simd.hpp" />
+    <ClInclude Include="core\src\matmul.simd.hpp" />
+    <ClInclude Include="core\src\mean.simd.hpp" />
+    <ClInclude Include="core\src\merge.simd.hpp" />
+    <ClInclude Include="core\src\ocl_disabled.impl.hpp" />
+    <ClInclude Include="core\src\opencl\runtime\autogenerated\opencl_clblas_impl.hpp" />
+    <ClInclude Include="core\src\opencl\runtime\autogenerated\opencl_clfft_impl.hpp" />
+    <ClInclude Include="core\src\opencl\runtime\autogenerated\opencl_core_impl.hpp" />
+    <ClInclude Include="core\src\opencl\runtime\autogenerated\opencl_core_static_impl.hpp" />
+    <ClInclude Include="core\src\opencl\runtime\autogenerated\opencl_gl_impl.hpp" />
+    <ClInclude Include="core\src\opencl\runtime\autogenerated\opencl_gl_static_impl.hpp" />
+    <ClInclude Include="core\src\opencl\runtime\runtime_common.hpp" />
+    <ClInclude Include="core\src\parallel\factory_parallel.hpp" />
+    <ClInclude Include="core\src\parallel\parallel.hpp" />
+    <ClInclude Include="core\src\parallel\plugin_parallel_api.hpp" />
+    <ClInclude Include="core\src\parallel\plugin_parallel_wrapper.impl.hpp" />
+    <ClInclude Include="core\src\parallel\registry_parallel.hpp" />
+    <ClInclude Include="core\src\parallel\registry_parallel.impl.hpp" />
+    <ClInclude Include="core\src\parallel_impl.hpp" />
+    <ClInclude Include="core\src\persistence.hpp" />
+    <ClInclude Include="core\src\persistence_base64_encoding.hpp" />
+    <ClInclude Include="core\src\persistence_impl.hpp" />
+    <ClInclude Include="core\src\precomp.hpp" />
+    <ClInclude Include="core\src\split.simd.hpp" />
+    <ClInclude Include="core\src\stat.hpp" />
+    <ClInclude Include="core\src\stat.simd.hpp" />
+    <ClInclude Include="core\src\sum.simd.hpp" />
+    <ClInclude Include="core\src\umatrix.hpp" />
+    <ClInclude Include="core\src\utils\logtagconfig.hpp" />
+    <ClInclude Include="core\src\utils\logtagconfigparser.hpp" />
+    <ClInclude Include="core\src\utils\logtagmanager.hpp" />
+    <ClInclude Include="core\src\utils\plugin_loader.impl.hpp" />
+    <ClInclude Include="core\src\va_wrapper.impl.hpp" />
+    <ClCompile Include="flann\src\flann.cpp" />
+    <ClCompile Include="flann\src\miniflann.cpp" />
+    <ClInclude Include="flann\src\precomp.hpp" />
+    <ClCompile Include="imgproc\src\accum.cpp" />
+    <ClCompile Include="imgproc\src\accum.dispatch.cpp" />
+    <ClCompile Include="imgproc\src\approx.cpp" />
+    <ClCompile Include="imgproc\src\bilateral_filter.dispatch.cpp" />
+    <ClCompile Include="imgproc\src\blend.cpp" />
+    <ClCompile Include="imgproc\src\box_filter.dispatch.cpp" />
+    <ClCompile Include="imgproc\src\canny.cpp" />
+    <ClCompile Include="imgproc\src\clahe.cpp" />
+    <ClCompile Include="imgproc\src\color.cpp" />
+    <ClCompile Include="imgproc\src\color_hsv.dispatch.cpp" />
+    <ClCompile Include="imgproc\src\color_lab.cpp" />
+    <ClCompile Include="imgproc\src\color_rgb.dispatch.cpp" />
+    <ClCompile Include="imgproc\src\color_yuv.dispatch.cpp" />
+    <ClCompile Include="imgproc\src\colormap.cpp" />
+    <ClCompile Include="imgproc\src\connectedcomponents.cpp" />
+    <ClCompile Include="imgproc\src\contours.cpp" />
+    <ClCompile Include="imgproc\src\convhull.cpp" />
+    <ClCompile Include="imgproc\src\corner.cpp" />
+    <ClCompile Include="imgproc\src\cornersubpix.cpp" />
+    <ClCompile Include="imgproc\src\demosaicing.cpp" />
+    <ClCompile Include="imgproc\src\deriv.cpp" />
+    <ClCompile Include="imgproc\src\distransform.cpp" />
+    <ClCompile Include="imgproc\src\drawing.cpp" />
+    <ClCompile Include="imgproc\src\emd.cpp" />
+    <ClCompile Include="imgproc\src\featureselect.cpp" />
+    <ClCompile Include="imgproc\src\filter.dispatch.cpp" />
+    <ClCompile Include="imgproc\src\floodfill.cpp" />
+    <ClCompile Include="imgproc\src\gabor.cpp" />
+    <ClCompile Include="imgproc\src\generalized_hough.cpp" />
+    <ClCompile Include="imgproc\src\geometry.cpp" />
+    <ClCompile Include="imgproc\src\grabcut.cpp" />
+    <ClCompile Include="imgproc\src\hershey_fonts.cpp" />
+    <ClCompile Include="imgproc\src\histogram.cpp" />
+    <ClCompile Include="imgproc\src\hough.cpp" />
+    <ClCompile Include="imgproc\src\imgwarp.cpp" />
+    <ClCompile Include="imgproc\src\intelligent_scissors.cpp" />
+    <ClCompile Include="imgproc\src\intersection.cpp" />
+    <ClCompile Include="imgproc\src\linefit.cpp" />
+    <ClCompile Include="imgproc\src\lsd.cpp" />
+    <ClCompile Include="imgproc\src\imgproc_main.cpp">
+    </ClCompile>
+    <ClCompile Include="imgproc\src\matchcontours.cpp" />
+    <ClCompile Include="imgproc\src\median_blur.dispatch.cpp" />
+    <ClCompile Include="imgproc\src\min_enclosing_triangle.cpp" />
+    <ClCompile Include="imgproc\src\moments.cpp" />
+    <ClCompile Include="imgproc\src\morph.dispatch.cpp" />
+    <ClCompile Include="imgproc\src\phasecorr.cpp" />
+    <ClCompile Include="imgproc\src\pyramids.cpp" />
+    <ClCompile Include="imgproc\src\resize.cpp" />
+    <ClCompile Include="imgproc\src\rotcalipers.cpp" />
+    <ClCompile Include="imgproc\src\samplers.cpp" />
+    <ClCompile Include="imgproc\src\segmentation.cpp" />
+    <ClCompile Include="imgproc\src\shapedescr.cpp" />
+    <ClCompile Include="imgproc\src\smooth.dispatch.cpp" />
+    <ClCompile Include="imgproc\src\spatialgradient.cpp" />
+    <ClCompile Include="imgproc\src\subdivision2d.cpp" />
+    <ClCompile Include="imgproc\src\sumpixels.dispatch.cpp" />
+    <ClCompile Include="imgproc\src\tables.cpp">
+    </ClCompile>
+    <ClCompile Include="imgproc\src\templmatch.cpp" />
+    <ClCompile Include="imgproc\src\thresh.cpp" />
+    <ClCompile Include="imgproc\src\imgproc_utils.cpp">
+    </ClCompile>
+    <None Include="imgproc\src\opencl\accumulate.cl">
+    </None>
+    <None Include="imgproc\src\opencl\bilateral.cl">
+    </None>
+    <None Include="imgproc\src\opencl\blend_linear.cl">
+    </None>
+    <None Include="imgproc\src\opencl\boxFilter.cl">
+    </None>
+    <None Include="imgproc\src\opencl\boxFilter3x3.cl">
+    </None>
+    <None Include="imgproc\src\opencl\calc_back_project.cl">
+    </None>
+    <None Include="imgproc\src\opencl\canny.cl">
+    </None>
+    <None Include="imgproc\src\opencl\clahe.cl">
+    </None>
+    <None Include="imgproc\src\opencl\color_hsv.cl">
+    </None>
+    <None Include="imgproc\src\opencl\color_lab.cl">
+    </None>
+    <None Include="imgproc\src\opencl\color_rgb.cl">
+    </None>
+    <None Include="imgproc\src\opencl\color_yuv.cl">
+    </None>
+    <None Include="imgproc\src\opencl\corner.cl">
+    </None>
+    <None Include="imgproc\src\opencl\covardata.cl">
+    </None>
+    <None Include="imgproc\src\opencl\filter2D.cl">
+    </None>
+    <None Include="imgproc\src\opencl\filter2DSmall.cl">
+    </None>
+    <None Include="imgproc\src\opencl\filterSepCol.cl">
+    </None>
+    <None Include="imgproc\src\opencl\filterSepRow.cl">
+    </None>
+    <None Include="imgproc\src\opencl\filterSep_singlePass.cl">
+    </None>
+    <None Include="imgproc\src\opencl\filterSmall.cl">
+    </None>
+    <None Include="imgproc\src\opencl\gaussianBlur3x3.cl">
+    </None>
+    <None Include="imgproc\src\opencl\gaussianBlur5x5.cl">
+    </None>
+    <None Include="imgproc\src\opencl\gftt.cl">
+    </None>
+    <None Include="imgproc\src\opencl\histogram.cl">
+    </None>
+    <None Include="imgproc\src\opencl\hough_lines.cl">
+    </None>
+    <None Include="imgproc\src\opencl\integral_sum.cl">
+    </None>
+    <None Include="imgproc\src\opencl\laplacian3.cl">
+    </None>
+    <None Include="imgproc\src\opencl\laplacian5.cl">
+    </None>
+    <None Include="imgproc\src\opencl\linearPolar.cl">
+    </None>
+    <None Include="imgproc\src\opencl\logPolar.cl">
+    </None>
+    <None Include="imgproc\src\opencl\match_template.cl">
+    </None>
+    <None Include="imgproc\src\opencl\medianFilter.cl">
+    </None>
+    <None Include="imgproc\src\opencl\moments.cl">
+    </None>
+    <None Include="imgproc\src\opencl\morph.cl">
+    </None>
+    <None Include="imgproc\src\opencl\morph3x3.cl">
+    </None>
+    <None Include="imgproc\src\opencl\precornerdetect.cl">
+    </None>
+    <None Include="imgproc\src\opencl\pyr_down.cl">
+    </None>
+    <None Include="imgproc\src\opencl\pyr_up.cl">
+    </None>
+    <None Include="imgproc\src\opencl\pyramid_up.cl">
+    </None>
+    <None Include="imgproc\src\opencl\remap.cl">
+    </None>
+    <None Include="imgproc\src\opencl\resize.cl">
+    </None>
+    <None Include="imgproc\src\opencl\sepFilter3x3.cl">
+    </None>
+    <None Include="imgproc\src\opencl\threshold.cl">
+    </None>
+    <None Include="imgproc\src\opencl\warp_affine.cl">
+    </None>
+    <None Include="imgproc\src\opencl\warp_perspective.cl">
+    </None>
+    <None Include="imgproc\src\opencl\warp_transform.cl">
+    </None>
+    <ClCompile Include="world\opencl_kernels_imgproc.cpp" />
+    <ClInclude Include="world\opencl_kernels_imgproc.hpp" />
+    <ClInclude Include="imgproc\src\_geom.h" />
+    <ClInclude Include="imgproc\src\accum.simd.hpp" />
+    <ClInclude Include="imgproc\src\bilateral_filter.simd.hpp" />
+    <ClInclude Include="imgproc\src\box_filter.simd.hpp" />
+    <ClInclude Include="imgproc\src\ccl_bolelli_forest.inc.hpp" />
+    <ClInclude Include="imgproc\src\ccl_bolelli_forest_firstline.inc.hpp" />
+    <ClInclude Include="imgproc\src\ccl_bolelli_forest_lastline.inc.hpp" />
+    <ClInclude Include="imgproc\src\ccl_bolelli_forest_singleline.inc.hpp" />
+    <ClInclude Include="imgproc\src\color.hpp" />
+    <ClInclude Include="imgproc\src\color.simd_helpers.hpp" />
+    <ClInclude Include="imgproc\src\color_hsv.simd.hpp" />
+    <ClInclude Include="imgproc\src\color_rgb.simd.hpp" />
+    <ClInclude Include="imgproc\src\color_yuv.simd.hpp" />
+    <ClInclude Include="imgproc\src\corner.hpp" />
+    <ClInclude Include="imgproc\src\filter.hpp" />
+    <ClInclude Include="imgproc\src\filter.simd.hpp" />
+    <ClInclude Include="imgproc\src\filterengine.hpp" />
+    <ClInclude Include="imgproc\src\fixedpoint.inl.hpp" />
+    <ClInclude Include="imgproc\src\hal_replacement.hpp" />
+    <ClInclude Include="imgproc\src\imgwarp.hpp" />
+    <ClInclude Include="imgproc\src\median_blur.simd.hpp" />
+    <ClInclude Include="imgproc\src\morph.simd.hpp" />
+    <ClInclude Include="imgproc\src\precomp.hpp" />
+    <ClInclude Include="imgproc\src\resize.hpp" />
+    <ClInclude Include="imgproc\src\smooth.simd.hpp" />
+    <ClInclude Include="imgproc\src\sumpixels.avx512_skx.hpp" />
+    <ClInclude Include="imgproc\src\sumpixels.simd.hpp" />
+    <ClCompile Include="ml\src\ann_mlp.cpp" />
+    <ClCompile Include="ml\src\boost.cpp" />
+    <ClCompile Include="ml\src\data.cpp" />
+    <ClCompile Include="ml\src\em.cpp" />
+    <ClCompile Include="ml\src\gbt.cpp" />
+    <ClCompile Include="ml\src\inner_functions.cpp" />
+    <ClCompile Include="ml\src\kdtree.cpp" />
+    <ClCompile Include="ml\src\knearest.cpp" />
+    <ClCompile Include="ml\src\lr.cpp" />
+    <ClCompile Include="ml\src\nbayes.cpp" />
+    <ClCompile Include="ml\src\rtrees.cpp" />
+    <ClCompile Include="ml\src\svm.cpp" />
+    <ClCompile Include="ml\src\svmsgd.cpp" />
+    <ClCompile Include="ml\src\testset.cpp" />
+    <ClCompile Include="ml\src\tree.cpp" />
+    <ClInclude Include="ml\src\kdtree.hpp" />
+    <ClInclude Include="ml\src\precomp.hpp" />
+    <ClCompile Include="photo\src\align.cpp" />
+    <ClCompile Include="photo\src\calibrate.cpp" />
+    <ClCompile Include="photo\src\contrast_preserve.cpp" />
+    <ClCompile Include="photo\src\denoise_tvl1.cpp" />
+    <ClCompile Include="photo\src\denoising.cpp" />
+    <ClCompile Include="photo\src\denoising.cuda.cpp" />
+    <ClCompile Include="photo\src\hdr_common.cpp" />
+    <ClCompile Include="photo\src\inpaint.cpp" />
+    <ClCompile Include="photo\src\merge.cpp" />
+    <ClCompile Include="photo\src\npr.cpp" />
+    <ClCompile Include="photo\src\seamless_cloning.cpp" />
+    <ClCompile Include="photo\src\seamless_cloning_impl.cpp" />
+    <ClCompile Include="photo\src\tonemap.cpp" />
+    <None Include="photo\src\opencl\nlmeans.cl">
+    </None>
+    <ClCompile Include="world\opencl_kernels_photo.cpp" />
+    <ClInclude Include="world\opencl_kernels_photo.hpp" />
+    <ClInclude Include="photo\src\arrays.hpp" />
+    <ClInclude Include="photo\src\contrast_preserve.hpp" />
+    <ClInclude Include="photo\src\fast_nlmeans_denoising_invoker.hpp" />
+    <ClInclude Include="photo\src\fast_nlmeans_denoising_invoker_commons.hpp" />
+    <ClInclude Include="photo\src\fast_nlmeans_denoising_opencl.hpp" />
+    <ClInclude Include="photo\src\fast_nlmeans_multi_denoising_invoker.hpp" />
+    <ClInclude Include="photo\src\hdr_common.hpp" />
+    <ClInclude Include="photo\src\npr.hpp" />
+    <ClInclude Include="photo\src\precomp.hpp" />
+    <ClInclude Include="photo\src\seamless_cloning.hpp" />
+    <ClCompile Include="dnn\src\caffe\caffe_importer.cpp" />
+    <ClCompile Include="dnn\src\caffe\caffe_io.cpp" />
+    <ClCompile Include="dnn\src\caffe\caffe_shrinker.cpp" />
+    <ClCompile Include="dnn\src\darknet\darknet_importer.cpp" />
+    <ClCompile Include="dnn\src\darknet\darknet_io.cpp" />
+    <ClCompile Include="dnn\src\debug_utils.cpp" />
+    <ClCompile Include="dnn\src\dnn.cpp" />
+    <ClCompile Include="dnn\src\dnn_params.cpp" />
+    <ClCompile Include="dnn\src\dnn_read.cpp" />
+    <ClCompile Include="dnn\src\dnn_utils.cpp" />
+    <ClCompile Include="dnn\src\graph_simplifier.cpp" />
+    <ClCompile Include="dnn\src\halide_scheduler.cpp" />
+    <ClCompile Include="dnn\src\ie_ngraph.cpp" />
+    <ClCompile Include="dnn\src\init.cpp" />
+    <ClCompile Include="dnn\src\int8layers\int8layers_batch_norm_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_convolution_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_elementwise_layers.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_eltwise_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_fully_connected_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_pooling_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\quantization_utils.cpp" />
+    <ClCompile Include="dnn\src\int8layers\int8layers_reduce_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_scale_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\int8layers\int8layers_softmax_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\layer.cpp" />
+    <ClCompile Include="dnn\src\layer_factory.cpp" />
+    <ClCompile Include="dnn\src\layers\accum_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\arg_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\batch_norm_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\blank_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\concat_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\const_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\convolution_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\correlation_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\crop_and_resize_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\cumsum_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\detection_output_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\elementwise_layers.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\eltwise_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\flatten_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\flow_warp_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\fully_connected_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\layers_common.cpp" />
+    <ClCompile Include="dnn\src\layers\lrn_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\max_unpooling_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\mvn_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\normalize_bbox_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\not_implemented_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\padding_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\permute_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\pooling_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\prior_box_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\proposal_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\recurrent_layers.cpp" />
+    <ClCompile Include="dnn\src\layers\reduce_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\region_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\reorg_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\reshape_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\resize_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\scale_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\shuffle_channel_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\slice_layer.cpp" />
+    <ClCompile Include="dnn\src\layers\softmax_layer.cpp">
+    </ClCompile>
+    <ClCompile Include="dnn\src\layers\split_layer.cpp" />
+    <ClCompile Include="dnn\src\legacy_backend.cpp" />
+    <ClCompile Include="dnn\src\model.cpp" />
+    <ClCompile Include="dnn\src\net.cpp" />
+    <ClCompile Include="dnn\src\net_impl.cpp" />
+    <ClCompile Include="dnn\src\net_impl_backend.cpp" />
+    <ClCompile Include="dnn\src\net_impl_fuse.cpp" />
+    <ClCompile Include="dnn\src\net_openvino.cpp" />
+    <ClCompile Include="dnn\src\net_quantization.cpp" />
+    <ClCompile Include="dnn\src\nms.cpp" />
+    <ClCompile Include="dnn\src\ocl4dnn\src\common.cpp" />
+    <ClCompile Include="dnn\src\ocl4dnn\src\math_functions.cpp" />
+    <ClCompile Include="dnn\src\ocl4dnn\src\ocl4dnn_conv_spatial.cpp" />
+    <ClCompile Include="dnn\src\ocl4dnn\src\ocl4dnn_inner_product.cpp" />
+    <ClCompile Include="dnn\src\ocl4dnn\src\ocl4dnn_lrn.cpp" />
+    <ClCompile Include="dnn\src\ocl4dnn\src\ocl4dnn_pool.cpp" />
+    <ClCompile Include="dnn\src\ocl4dnn\src\ocl4dnn_softmax.cpp" />
+    <ClCompile Include="dnn\src\onnx\onnx_graph_simplifier.cpp" />
+    <ClCompile Include="dnn\src\onnx\onnx_importer.cpp" />
+    <ClCompile Include="dnn\src\op_cuda.cpp" />
+    <ClCompile Include="dnn\src\op_halide.cpp" />
+    <ClCompile Include="dnn\src\op_inf_engine.cpp" />
+    <ClCompile Include="dnn\src\op_timvx.cpp" />
+    <ClCompile Include="dnn\src\op_vkcom.cpp" />
+    <ClCompile Include="dnn\src\op_webnn.cpp" />
+    <ClCompile Include="dnn\src\registry.cpp" />
+    <ClCompile Include="dnn\src\tengine4dnn\src\tengine_graph_convolution.cpp" />
+    <ClCompile Include="dnn\src\tensorflow\tf_graph_simplifier.cpp" />
+    <ClCompile Include="dnn\src\tensorflow\tf_importer.cpp" />
+    <ClCompile Include="dnn\src\tensorflow\tf_io.cpp" />
+    <ClCompile Include="dnn\src\torch\THDiskFile.cpp" />
+    <ClCompile Include="dnn\src\torch\THFile.cpp" />
+    <ClCompile Include="dnn\src\torch\THGeneral.cpp" />
+    <ClCompile Include="dnn\src\torch\torch_importer.cpp" />
+    <ClCompile Include="dnn\src\vkcom\shader\avg_pool_spv.cpp" />
+    <ClCompile Include="dnn\src\vkcom\shader\concat_spv.cpp" />
+    <ClCompile Include="dnn\src\vkcom\shader\conv48_spv.cpp" />
+    <ClCompile Include="dnn\src\vkcom\shader\conv_spv.cpp" />
+    <ClCompile Include="dnn\src\vkcom\shader\dw_conv_spv.cpp" />
+    <ClCompile Include="dnn\src\vkcom\shader\lrn_spv.cpp" />
+    <ClCompile Include="dnn\src\vkcom\shader\max_pool_spv.cpp" />
+    <ClCompile Include="dnn\src\vkcom\shader\permute_spv.cpp" />
+    <ClCompile Include="dnn\src\vkcom\shader\prior_box_spv.cpp" />
+    <ClCompile Include="dnn\src\vkcom\shader\relu_spv.cpp" />
+    <ClCompile Include="dnn\src\vkcom\shader\softmax_spv.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\buffer.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\context.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\internal.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\op_base.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\op_concat.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\op_conv.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\op_lrn.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\op_permute.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\op_pool.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\op_prior_box.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\op_relu.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\op_softmax.cpp" />
+    <ClCompile Include="dnn\src\vkcom\src\tensor.cpp" />
+    <ClCompile Include="dnn\src\vkcom\vulkan\vk_functions.cpp" />
+    <ClCompile Include="dnn\src\vkcom\vulkan\vk_loader.cpp" />
+    <None Include="dnn\src\opencl\activations.cl">
+    </None>
+    <None Include="dnn\src\opencl\batchnorm.cl">
+    </None>
+    <None Include="dnn\src\opencl\col2im.cl">
+    </None>
+    <None Include="dnn\src\opencl\concat.cl">
+    </None>
+    <None Include="dnn\src\opencl\conv_layer_spatial.cl">
+    </None>
+    <None Include="dnn\src\opencl\conv_spatial_helper.cl">
+    </None>
+    <None Include="dnn\src\opencl\detection_output.cl">
+    </None>
+    <None Include="dnn\src\opencl\dummy.cl">
+    </None>
+    <None Include="dnn\src\opencl\eltwise.cl">
+    </None>
+    <None Include="dnn\src\opencl\gemm_buffer.cl">
+    </None>
+    <None Include="dnn\src\opencl\gemm_image.cl">
+    </None>
+    <None Include="dnn\src\opencl\im2col.cl">
+    </None>
+    <None Include="dnn\src\opencl\lrn.cl">
+    </None>
+    <None Include="dnn\src\opencl\math.cl">
+    </None>
+    <None Include="dnn\src\opencl\matvec_mul.cl">
+    </None>
+    <None Include="dnn\src\opencl\mvn.cl">
+    </None>
+    <None Include="dnn\src\opencl\ocl4dnn_lrn.cl">
+    </None>
+    <None Include="dnn\src\opencl\ocl4dnn_pooling.cl">
+    </None>
+    <None Include="dnn\src\opencl\permute.cl">
+    </None>
+    <None Include="dnn\src\opencl\pooling.cl">
+    </None>
+    <None Include="dnn\src\opencl\prior_box.cl">
+    </None>
+    <None Include="dnn\src\opencl\region.cl">
+    </None>
+    <None Include="dnn\src\opencl\slice.cl">
+    </None>
+    <None Include="dnn\src\opencl\softmax.cl">
+    </None>
+    <None Include="dnn\src\opencl\softmax_loss.cl">
+    </None>
+    <ClCompile Include="world\opencl_kernels_dnn.cpp" />
+    <ClInclude Include="world\opencl_kernels_dnn.hpp" />
+    <ClInclude Include="dnn\src\caffe\caffe_io.hpp" />
+    <ClInclude Include="dnn\src\caffe\glog_emulator.hpp" />
+    <ClInclude Include="dnn\src\cuda\array.hpp" />
+    <ClInclude Include="dnn\src\cuda\atomics.hpp" />
+    <ClInclude Include="dnn\src\cuda\bbox_utils.hpp" />
+    <ClInclude Include="dnn\src\cuda\block_stride_range.hpp" />
+    <ClInclude Include="dnn\src\cuda\execution.hpp" />
+    <ClInclude Include="dnn\src\cuda\functors.hpp" />
+    <ClInclude Include="dnn\src\cuda\grid_stride_range.hpp" />
+    <ClInclude Include="dnn\src\cuda\index_helpers.hpp" />
+    <ClInclude Include="dnn\src\cuda\kernel_dispatcher.hpp" />
+    <ClInclude Include="dnn\src\cuda\limits.hpp" />
+    <ClInclude Include="dnn\src\cuda\math.hpp" />
+    <ClInclude Include="dnn\src\cuda\memory.hpp" />
+    <ClInclude Include="dnn\src\cuda\types.hpp" />
+    <ClInclude Include="dnn\src\cuda\vector_traits.hpp" />
+    <ClInclude Include="dnn\src\darknet\darknet_io.hpp" />
+    <ClInclude Include="dnn\src\dnn_common.hpp" />
+    <ClInclude Include="dnn\src\graph_simplifier.hpp" />
+    <ClInclude Include="dnn\src\halide_scheduler.hpp" />
+    <ClInclude Include="dnn\src\ie_ngraph.hpp" />
+    <ClInclude Include="dnn\src\int8layers\layers_common.hpp" />
+    <ClInclude Include="dnn\src\int8layers\layers_common.simd.hpp" />
+    <ClInclude Include="dnn\src\layer_internals.hpp" />
+    <ClInclude Include="dnn\src\layers\layers_common.hpp" />
+    <ClInclude Include="dnn\src\layers\layers_common.simd.hpp" />
+    <ClInclude Include="dnn\src\legacy_backend.hpp" />
+    <ClInclude Include="dnn\src\math_utils.hpp" />
+    <ClInclude Include="dnn\src\net_impl.hpp" />
+    <ClInclude Include="dnn\src\nms.inl.hpp" />
+    <ClInclude Include="dnn\src\ocl4dnn\include\common.hpp" />
+    <ClInclude Include="dnn\src\ocl4dnn\include\default_kernel_config.hpp" />
+    <ClInclude Include="dnn\src\ocl4dnn\include\math_functions.hpp" />
+    <ClInclude Include="dnn\src\ocl4dnn\include\ocl4dnn.hpp" />
+    <ClInclude Include="dnn\src\onnx\onnx_graph_simplifier.hpp" />
+    <ClInclude Include="dnn\src\op_cuda.hpp" />
+    <ClInclude Include="dnn\src\op_halide.hpp" />
+    <ClInclude Include="dnn\src\op_inf_engine.hpp" />
+    <ClInclude Include="dnn\src\op_timvx.hpp" />
+    <ClInclude Include="dnn\src\op_vkcom.hpp" />
+    <ClInclude Include="dnn\src\op_webnn.hpp" />
+    <ClInclude Include="dnn\src\precomp.hpp" />
+    <ClInclude Include="dnn\src\tengine4dnn\include\tengine_graph_convolution.hpp" />
+    <ClInclude Include="dnn\src\tensorflow\tf_graph_simplifier.hpp" />
+    <ClInclude Include="dnn\src\tensorflow\tf_io.hpp" />
+    <ClInclude Include="dnn\src\torch\THDiskFile.h" />
+    <ClInclude Include="dnn\src\torch\THFile.h" />
+    <ClInclude Include="dnn\src\torch\THFilePrivate.h" />
+    <ClInclude Include="dnn\src\torch\THGeneral.h" />
+    <ClInclude Include="dnn\src\vkcom\include\buffer.hpp" />
+    <ClInclude Include="dnn\src\vkcom\include\op_base.hpp" />
+    <ClInclude Include="dnn\src\vkcom\include\op_concat.hpp" />
+    <ClInclude Include="dnn\src\vkcom\include\op_conv.hpp" />
+    <ClInclude Include="dnn\src\vkcom\include\op_lrn.hpp" />
+    <ClInclude Include="dnn\src\vkcom\include\op_permute.hpp" />
+    <ClInclude Include="dnn\src\vkcom\include\op_pool.hpp" />
+    <ClInclude Include="dnn\src\vkcom\include\op_prior_box.hpp" />
+    <ClInclude Include="dnn\src\vkcom\include\op_relu.hpp" />
+    <ClInclude Include="dnn\src\vkcom\include\op_softmax.hpp" />
+    <ClInclude Include="dnn\src\vkcom\include\tensor.hpp" />
+    <ClInclude Include="dnn\src\vkcom\include\vkcom.hpp" />
+    <ClInclude Include="dnn\src\vkcom\shader\spv_shader.hpp" />
+    <ClInclude Include="dnn\src\vkcom\src\common.hpp" />
+    <ClInclude Include="dnn\src\vkcom\src\context.hpp" />
+    <ClInclude Include="dnn\src\vkcom\src\internal.hpp" />
+    <ClInclude Include="dnn\src\vkcom\vulkan\function_list.inl.hpp" />
+    <ClInclude Include="dnn\src\vkcom\vulkan\vk_functions.hpp" />
+    <ClInclude Include="dnn\src\vkcom\vulkan\vk_loader.hpp" />
+    <ClCompile Include="features2d\src\affine_feature.cpp" />
+    <ClCompile Include="features2d\src\agast.cpp" />
+    <ClCompile Include="features2d\src\agast_score.cpp" />
+    <ClCompile Include="features2d\src\akaze.cpp" />
+    <ClCompile Include="features2d\src\bagofwords.cpp" />
+    <ClCompile Include="features2d\src\blobdetector.cpp" />
+    <ClCompile Include="features2d\src\brisk.cpp" />
+    <ClCompile Include="features2d\src\draw.cpp" />
+    <ClCompile Include="features2d\src\dynamic.cpp" />
+    <ClCompile Include="features2d\src\evaluation.cpp" />
+    <ClCompile Include="features2d\src\fast.cpp" />
+    <ClCompile Include="features2d\src\fast_score.cpp" />
+    <ClCompile Include="features2d\src\feature2d.cpp" />
+    <ClCompile Include="features2d\src\gftt.cpp" />
+    <ClCompile Include="features2d\src\kaze.cpp" />
+    <ClCompile Include="features2d\src\kaze\AKAZEFeatures.cpp" />
+    <ClCompile Include="features2d\src\kaze\KAZEFeatures.cpp" />
+    <ClCompile Include="features2d\src\kaze\fed.cpp" />
+    <ClCompile Include="features2d\src\kaze\nldiffusion_functions.cpp" />
+    <ClCompile Include="features2d\src\keypoint.cpp" />
+    <ClCompile Include="features2d\src\features2d_main.cpp">
+    </ClCompile>
+    <ClCompile Include="features2d\src\features2d_matchers.cpp">
+    </ClCompile>
+    <ClCompile Include="features2d\src\mser.cpp" />
+    <ClCompile Include="features2d\src\orb.cpp" />
+    <ClCompile Include="features2d\src\sift.dispatch.cpp" />
+    <None Include="features2d\src\opencl\akaze.cl">
+    </None>
+    <None Include="features2d\src\opencl\brute_force_match.cl">
+    </None>
+    <None Include="features2d\src\opencl\fast.cl">
+    </None>
+    <None Include="features2d\src\opencl\orb.cl">
+    </None>
+    <ClCompile Include="world\opencl_kernels_features2d.cpp" />
+    <ClInclude Include="world\opencl_kernels_features2d.hpp" />
+    <ClInclude Include="features2d\src\agast_score.hpp" />
+    <ClInclude Include="features2d\src\fast.hpp" />
+    <ClInclude Include="features2d\src\fast_score.hpp" />
+    <ClInclude Include="features2d\src\hal_replacement.hpp" />
+    <ClInclude Include="features2d\src\kaze\AKAZEConfig.h" />
+    <ClInclude Include="features2d\src\kaze\AKAZEFeatures.h" />
+    <ClInclude Include="features2d\src\kaze\KAZEConfig.h" />
+    <ClInclude Include="features2d\src\kaze\KAZEFeatures.h" />
+    <ClInclude Include="features2d\src\kaze\TEvolution.h" />
+    <ClInclude Include="features2d\src\kaze\fed.h" />
+    <ClInclude Include="features2d\src\kaze\nldiffusion_functions.h" />
+    <ClInclude Include="features2d\src\kaze\utils.h" />
+    <ClInclude Include="features2d\src\precomp.hpp" />
+    <ClInclude Include="features2d\src\sift.simd.hpp" />
+    <ClCompile Include="imgcodecs\src\loadsave.cpp" />
+    <ClCompile Include="imgcodecs\src\utils.cpp">
+    </ClCompile>
+    <ClInclude Include="imgcodecs\src\precomp.hpp" />
+    <ClInclude Include="imgcodecs\src\utils.hpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_base.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_bmp.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_exr.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_gdal.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_gdcm.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_hdr.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_jpeg.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_jpeg2000.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_jpeg2000_openjpeg.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_pam.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_pfm.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_png.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_pxm.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_sunras.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_tiff.cpp" />
+    <ClCompile Include="imgcodecs\src\grfmt_webp.cpp" />
+    <ClCompile Include="imgcodecs\src\bitstrm.cpp" />
+    <ClCompile Include="imgcodecs\src\rgbe.cpp" />
+    <ClCompile Include="imgcodecs\src\exif.cpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_base.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_bmp.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_exr.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_gdal.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_gdcm.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_hdr.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_jpeg.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_jpeg2000.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_jpeg2000_openjpeg.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_pam.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_pfm.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_png.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_pxm.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_sunras.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_tiff.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmt_webp.hpp" />
+    <ClInclude Include="imgcodecs\src\grfmts.hpp" />
+    <ClInclude Include="imgcodecs\src\bitstrm.hpp" />
+    <ClInclude Include="imgcodecs\src\rgbe.hpp" />
+    <ClInclude Include="imgcodecs\src\exif.hpp" />
+    <ClCompile Include="videoio\src\videoio_registry.cpp" />
+    <ClCompile Include="videoio\src\videoio_c.cpp" />
+    <ClCompile Include="videoio\src\cap.cpp" />
+    <ClCompile Include="videoio\src\cap_images.cpp" />
+    <ClCompile Include="videoio\src\cap_mjpeg_encoder.cpp" />
+    <ClCompile Include="videoio\src\cap_mjpeg_decoder.cpp" />
+    <ClCompile Include="videoio\src\backend_plugin.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);DEBUG_POSTFIX=d</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);DEBUG_POSTFIX=d</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="videoio\src\backend_static.cpp" />
+    <ClCompile Include="videoio\src\container_avi.cpp" />
+    <ClCompile Include="videoio\src\cap_dshow.cpp" />
+    <ClInclude Include="videoio\src\cap_msmf.hpp" />
+    <ClCompile Include="videoio\src\cap_msmf.cpp" />
+    <ClCompile Include="calib3d\src\ap3p.cpp" />
+    <ClCompile Include="calib3d\src\calibinit.cpp" />
+    <ClCompile Include="calib3d\src\calibration.cpp" />
+    <ClCompile Include="calib3d\src\calibration_handeye.cpp" />
+    <ClCompile Include="calib3d\src\checkchessboard.cpp" />
+    <ClCompile Include="calib3d\src\chessboard.cpp" />
+    <ClCompile Include="calib3d\src\circlesgrid.cpp" />
+    <ClCompile Include="calib3d\src\compat_ptsetreg.cpp" />
+    <ClCompile Include="calib3d\src\dls.cpp" />
+    <ClCompile Include="calib3d\src\epnp.cpp" />
+    <ClCompile Include="calib3d\src\fisheye.cpp" />
+    <ClCompile Include="calib3d\src\five-point.cpp" />
+    <ClCompile Include="calib3d\src\fundam.cpp" />
+    <ClCompile Include="calib3d\src\homography_decomp.cpp" />
+    <ClCompile Include="calib3d\src\ippe.cpp" />
+    <ClCompile Include="calib3d\src\levmarq.cpp" />
+    <ClCompile Include="calib3d\src\calib3d_main.cpp">
+    </ClCompile>
+    <ClCompile Include="calib3d\src\p3p.cpp" />
+    <ClCompile Include="calib3d\src\polynom_solver.cpp" />
+    <ClCompile Include="calib3d\src\posit.cpp" />
+    <ClCompile Include="calib3d\src\ptsetreg.cpp" />
+    <ClCompile Include="calib3d\src\quadsubpix.cpp" />
+    <ClCompile Include="calib3d\src\rho.cpp" />
+    <ClCompile Include="calib3d\src\solvepnp.cpp" />
+    <ClCompile Include="calib3d\src\sqpnp.cpp" />
+    <ClCompile Include="calib3d\src\stereobm.cpp" />
+    <ClCompile Include="calib3d\src\stereosgbm.cpp" />
+    <ClCompile Include="calib3d\src\triangulate.cpp" />
+    <ClCompile Include="calib3d\src\undistort.dispatch.cpp" />
+    <ClCompile Include="calib3d\src\upnp.cpp" />
+    <ClCompile Include="calib3d\src\usac\degeneracy.cpp" />
+    <ClCompile Include="calib3d\src\usac\dls_solver.cpp" />
+    <ClCompile Include="calib3d\src\usac\essential_solver.cpp" />
+    <ClCompile Include="calib3d\src\usac\estimator.cpp" />
+    <ClCompile Include="calib3d\src\usac\fundamental_solver.cpp" />
+    <ClCompile Include="calib3d\src\usac\gamma_values.cpp" />
+    <ClCompile Include="calib3d\src\usac\homography_solver.cpp" />
+    <ClCompile Include="calib3d\src\usac\local_optimization.cpp" />
+    <ClCompile Include="calib3d\src\usac\pnp_solver.cpp" />
+    <ClCompile Include="calib3d\src\usac\quality.cpp" />
+    <ClCompile Include="calib3d\src\usac\ransac_solvers.cpp" />
+    <ClCompile Include="calib3d\src\usac\sampler.cpp" />
+    <ClCompile Include="calib3d\src\usac\termination.cpp" />
+    <ClCompile Include="calib3d\src\usac\calib3d_utils.cpp">
+    </ClCompile>
+    <None Include="calib3d\src\opencl\stereobm.cl">
+    </None>
+    <ClCompile Include="world\opencl_kernels_calib3d.cpp" />
+    <ClInclude Include="world\opencl_kernels_calib3d.hpp" />
+    <ClInclude Include="calib3d\src\ap3p.h" />
+    <ClInclude Include="calib3d\src\calib3d_c_api.h" />
+    <ClInclude Include="calib3d\src\chessboard.hpp" />
+    <ClInclude Include="calib3d\src\circlesgrid.hpp" />
+    <ClInclude Include="calib3d\src\distortion_model.hpp" />
+    <ClInclude Include="calib3d\src\dls.h" />
+    <ClInclude Include="calib3d\src\epnp.h" />
+    <ClInclude Include="calib3d\src\fisheye.hpp" />
+    <ClInclude Include="calib3d\src\ippe.hpp" />
+    <ClInclude Include="calib3d\src\p3p.h" />
+    <ClInclude Include="calib3d\src\polynom_solver.h" />
+    <ClInclude Include="calib3d\src\precomp.hpp" />
+    <ClInclude Include="calib3d\src\rho.h" />
+    <ClInclude Include="calib3d\src\sqpnp.hpp" />
+    <ClInclude Include="calib3d\src\undistort.simd.hpp" />
+    <ClInclude Include="calib3d\src\upnp.h" />
+    <ClInclude Include="calib3d\src\usac.hpp" />
+    <ClCompile Include="highgui\src\backend.cpp" />
+    <ClCompile Include="highgui\src\window.cpp" />
+    <ClCompile Include="highgui\src\roiSelector.cpp" />
+    <ClCompile Include="highgui\src\window_w32.cpp" />
+    <ClInclude Include="highgui\src\precomp.hpp" />
+    <ClCompile Include="objdetect\src\cascadedetect.cpp" />
+    <ClCompile Include="objdetect\src\cascadedetect_convert.cpp" />
+    <ClCompile Include="objdetect\src\detection_based_tracker.cpp" />
+    <ClCompile Include="objdetect\src\face_detect.cpp" />
+    <ClCompile Include="objdetect\src\face_recognize.cpp" />
+    <ClCompile Include="objdetect\src\hog.cpp" />
+    <ClCompile Include="objdetect\src\objdetect_main.cpp">
+    </ClCompile>
+    <ClCompile Include="objdetect\src\qrcode.cpp" />
+    <ClCompile Include="objdetect\src\qrcode_encoder.cpp" />
+    <None Include="objdetect\src\opencl\cascadedetect.cl">
+    </None>
+    <None Include="objdetect\src\opencl\objdetect_hog.cl">
+    </None>
+    <ClCompile Include="world\opencl_kernels_objdetect.cpp" />
+    <ClInclude Include="world\opencl_kernels_objdetect.hpp" />
+    <ClInclude Include="objdetect\src\cascadedetect.hpp" />
+    <ClInclude Include="objdetect\src\precomp.hpp" />
+    <ClInclude Include="objdetect\src\qrcode_encoder_table.inl.hpp" />
+    <ClCompile Include="stitching\src\autocalib.cpp" />
+    <ClCompile Include="stitching\src\blenders.cpp" />
+    <ClCompile Include="stitching\src\camera.cpp" />
+    <ClCompile Include="stitching\src\exposure_compensate.cpp" />
+    <ClCompile Include="stitching\src\matchers.cpp">
+    </ClCompile>
+    <ClCompile Include="stitching\src\motion_estimators.cpp" />
+    <ClCompile Include="stitching\src\seam_finders.cpp" />
+    <ClCompile Include="stitching\src\stitcher.cpp" />
+    <ClCompile Include="stitching\src\timelapsers.cpp" />
+    <ClCompile Include="stitching\src\util.cpp" />
+    <ClCompile Include="stitching\src\warpers.cpp" />
+    <ClCompile Include="stitching\src\warpers_cuda.cpp" />
+    <None Include="stitching\src\opencl\multibandblend.cl">
+    </None>
+    <None Include="stitching\src\opencl\warpers.cl">
+    </None>
+    <ClCompile Include="world\opencl_kernels_stitching.cpp" />
+    <ClInclude Include="world\opencl_kernels_stitching.hpp" />
+    <ClInclude Include="stitching\src\precomp.hpp" />
+    <ClInclude Include="stitching\src\util_log.hpp" />
+    <ClCompile Include="video\src\bgfg_KNN.cpp" />
+    <ClCompile Include="video\src\bgfg_gaussmix2.cpp" />
+    <ClCompile Include="video\src\camshift.cpp" />
+    <ClCompile Include="video\src\dis_flow.cpp" />
+    <ClCompile Include="video\src\ecc.cpp" />
+    <ClCompile Include="video\src\kalman.cpp" />
+    <ClCompile Include="video\src\lkpyramid.cpp" />
+    <ClCompile Include="video\src\optflowgf.cpp" />
+    <ClCompile Include="video\src\optical_flow_io.cpp" />
+    <ClCompile Include="video\src\tracking\detail\tracker_feature.cpp" />
+    <ClCompile Include="video\src\tracking\detail\tracker_feature_set.cpp" />
+    <ClCompile Include="video\src\tracking\detail\tracker_mil_model.cpp" />
+    <ClCompile Include="video\src\tracking\detail\tracker_mil_state.cpp" />
+    <ClCompile Include="video\src\tracking\detail\tracker_model.cpp" />
+    <ClCompile Include="video\src\tracking\detail\tracker_sampler.cpp" />
+    <ClCompile Include="video\src\tracking\detail\tracker_sampler_algorithm.cpp" />
+    <ClCompile Include="video\src\tracking\detail\tracker_state_estimator.cpp" />
+    <ClCompile Include="video\src\tracking\detail\tracking_feature.cpp" />
+    <ClCompile Include="video\src\tracking\detail\tracking_online_mil.cpp" />
+    <ClCompile Include="video\src\tracking\tracker.cpp" />
+    <ClCompile Include="video\src\tracking\tracker_dasiamrpn.cpp" />
+    <ClCompile Include="video\src\tracking\tracker_goturn.cpp" />
+    <ClCompile Include="video\src\tracking\tracker_mil.cpp" />
+    <ClCompile Include="video\src\variational_refinement.cpp" />
+    <None Include="video\src\opencl\bgfg_knn.cl">
+    </None>
+    <None Include="video\src\opencl\bgfg_mog2.cl">
+    </None>
+    <None Include="video\src\opencl\dis_flow.cl">
+    </None>
+    <None Include="video\src\opencl\optical_flow_farneback.cl">
+    </None>
+    <None Include="video\src\opencl\pyrlk.cl">
+    </None>
+    <ClCompile Include="world\opencl_kernels_video.cpp" />
+    <ClInclude Include="world\opencl_kernels_video.hpp" />
+    <ClInclude Include="video\src\lkpyramid.hpp" />
+    <ClInclude Include="video\src\precomp.hpp" />
+    <ClInclude Include="video\src\tracking\detail\tracker_feature_haar.impl.hpp" />
+    <ClInclude Include="video\src\tracking\detail\tracker_mil_model.hpp" />
+    <ClInclude Include="video\src\tracking\detail\tracker_mil_state.hpp" />
+    <ClInclude Include="video\src\tracking\detail\tracking_feature.hpp" />
+    <ClInclude Include="video\src\tracking\detail\tracking_online_mil.hpp" />
+    <ClCompile Include="gapi\src\api\grunarg.cpp" />
+    <ClCompile Include="gapi\src\api\gorigin.cpp" />
+    <ClCompile Include="gapi\src\api\gmat.cpp" />
+    <ClCompile Include="gapi\src\api\garray.cpp" />
+    <ClCompile Include="gapi\src\api\gopaque.cpp" />
+    <ClCompile Include="gapi\src\api\gscalar.cpp" />
+    <ClCompile Include="gapi\src\api\gframe.cpp" />
+    <ClCompile Include="gapi\src\api\gkernel.cpp" />
+    <ClCompile Include="gapi\src\api\gbackend.cpp" />
+    <ClCompile Include="gapi\src\api\gproto.cpp" />
+    <ClCompile Include="gapi\src\api\gnode.cpp" />
+    <ClCompile Include="gapi\src\api\gcall.cpp" />
+    <ClCompile Include="gapi\src\api\gcomputation.cpp" />
+    <ClCompile Include="gapi\src\api\operators.cpp" />
+    <ClCompile Include="gapi\src\api\kernels_core.cpp" />
+    <ClCompile Include="gapi\src\api\kernels_imgproc.cpp" />
+    <ClCompile Include="gapi\src\api\kernels_video.cpp" />
+    <ClCompile Include="gapi\src\api\kernels_nnparsers.cpp" />
+    <ClCompile Include="gapi\src\api\kernels_streaming.cpp" />
+    <ClCompile Include="gapi\src\api\kernels_stereo.cpp" />
+    <ClCompile Include="gapi\src\api\render.cpp" />
+    <ClCompile Include="gapi\src\api\render_ocv.cpp" />
+    <ClCompile Include="gapi\src\api\ginfer.cpp" />
+    <ClCompile Include="gapi\src\api\media.cpp" />
+    <ClCompile Include="gapi\src\api\rmat.cpp" />
+    <ClCompile Include="gapi\src\compiler\gmodel.cpp" />
+    <ClCompile Include="gapi\src\compiler\gmodelbuilder.cpp" />
+    <ClCompile Include="gapi\src\compiler\gislandmodel.cpp" />
+    <ClCompile Include="gapi\src\compiler\gcompiler.cpp" />
+    <ClCompile Include="gapi\src\compiler\gcompiled.cpp" />
+    <ClCompile Include="gapi\src\compiler\gstreaming.cpp" />
+    <ClCompile Include="gapi\src\compiler\passes\helpers.cpp" />
+    <ClCompile Include="gapi\src\compiler\passes\dump_dot.cpp" />
+    <ClCompile Include="gapi\src\compiler\passes\islands.cpp" />
+    <ClCompile Include="gapi\src\compiler\passes\meta.cpp" />
+    <ClCompile Include="gapi\src\compiler\passes\kernels.cpp" />
+    <ClCompile Include="gapi\src\compiler\passes\exec.cpp" />
+    <ClCompile Include="gapi\src\compiler\passes\transformations.cpp" />
+    <ClCompile Include="gapi\src\compiler\passes\pattern_matching.cpp" />
+    <ClCompile Include="gapi\src\compiler\passes\perform_substitution.cpp" />
+    <ClCompile Include="gapi\src\compiler\passes\streaming.cpp" />
+    <ClCompile Include="gapi\src\compiler\passes\intrin.cpp" />
+    <ClCompile Include="gapi\src\executor\gexecutor.cpp" />
+    <ClCompile Include="gapi\src\executor\gtbbexecutor.cpp" />
+    <ClCompile Include="gapi\src\executor\gstreamingexecutor.cpp" />
+    <ClCompile Include="gapi\src\executor\gasync.cpp" />
+    <ClCompile Include="gapi\src\backends\cpu\gcpubackend.cpp" />
+    <ClCompile Include="gapi\src\backends\cpu\gcpukernel.cpp" />
+    <ClCompile Include="gapi\src\backends\cpu\gcpuimgproc.cpp" />
+    <ClCompile Include="gapi\src\backends\cpu\gcpustereo.cpp" />
+    <ClCompile Include="gapi\src\backends\cpu\gcpuvideo.cpp" />
+    <ClCompile Include="gapi\src\backends\cpu\gcpucore.cpp" />
+    <ClCompile Include="gapi\src\backends\cpu\gnnparsers.cpp" />
+    <ClCompile Include="gapi\src\backends\fluid\gfluidbuffer.cpp" />
+    <ClCompile Include="gapi\src\backends\fluid\gfluidbackend.cpp" />
+    <ClCompile Include="gapi\src\backends\fluid\gfluidimgproc.cpp" />
+    <ClCompile Include="gapi\src\backends\fluid\gfluidimgproc_func.dispatch.cpp" />
+    <ClCompile Include="gapi\src\backends\fluid\gfluidcore.cpp" />
+    <ClCompile Include="gapi\src\backends\fluid\gfluidcore_func.dispatch.cpp" />
+    <ClCompile Include="gapi\src\backends\oak\goak.cpp" />
+    <ClCompile Include="gapi\src\backends\oak\goakbackend.cpp" />
+    <ClCompile Include="gapi\src\backends\oak\goak_memory_adapters.cpp" />
+    <ClCompile Include="gapi\src\backends\ocl\goclbackend.cpp" />
+    <ClCompile Include="gapi\src\backends\ocl\goclkernel.cpp" />
+    <ClCompile Include="gapi\src\backends\ocl\goclimgproc.cpp" />
+    <ClCompile Include="gapi\src\backends\ocl\goclcore.cpp" />
+    <ClCompile Include="gapi\src\backends\ie\giebackend.cpp" />
+    <ClCompile Include="gapi\src\backends\ie\giebackend\giewrapper.cpp" />
+    <ClCompile Include="gapi\src\backends\onnx\gonnxbackend.cpp" />
+    <ClCompile Include="gapi\src\backends\render\grenderocv.cpp" />
+    <ClCompile Include="gapi\src\backends\render\ft_render.cpp" />
+    <ClCompile Include="gapi\src\backends\plaidml\gplaidmlcore.cpp" />
+    <ClCompile Include="gapi\src\backends\plaidml\gplaidmlbackend.cpp" />
+    <ClCompile Include="gapi\src\backends\common\gmetabackend.cpp" />
+    <ClCompile Include="gapi\src\backends\common\gcompoundbackend.cpp" />
+    <ClCompile Include="gapi\src\backends\common\gcompoundkernel.cpp" />
+    <ClCompile Include="gapi\src\api\s11n.cpp" />
+    <ClCompile Include="gapi\src\backends\common\serialization.cpp" />
+    <ClCompile Include="gapi\src\backends\streaming\gstreamingbackend.cpp" />
+    <ClCompile Include="gapi\src\backends\ie\bindings_ie.cpp" />
+    <ClCompile Include="gapi\src\backends\python\gpythonbackend.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\source.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\source_priv.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\file_data_provider.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\cfg_params.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\cfg_params_parser.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\gapi_utils.cpp">
+    </ClCompile>
+    <ClCompile Include="gapi\src\streaming\onevpl\data_provider_interface_exception.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\surface\base_frame_adapter.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\surface\cpu_frame_adapter.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\surface\dx11_frame_adapter.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\surface\surface.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\surface\surface_pool.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\utils\shared_lock.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\accel_policy_cpu.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\accel_policy_dx11.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\accel_policy_va_api.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\accelerators\dx11_alloc_resource.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\engine_session.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\processing_engine_base.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\decode\decode_engine_legacy.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\decode\decode_session.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\transcode\transcode_engine_legacy.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\transcode\transcode_session.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\preproc\preproc_engine.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\preproc\preproc_session.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\preproc\preproc_dispatcher.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\engine\preproc_engine_interface.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\demux\async_mfp_demux_data_provider.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\data_provider_dispatcher.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\cfg_param_device_selector.cpp" />
+    <ClCompile Include="gapi\src\streaming\onevpl\device_selector_interface.cpp" />
+    <ClCompile Include="gapi\src\streaming\gstreamer\gstreamer_pipeline_facade.cpp" />
+    <ClCompile Include="gapi\src\streaming\gstreamer\gstreamerpipeline.cpp" />
+    <ClCompile Include="gapi\src\streaming\gstreamer\gstreamersource.cpp" />
+    <ClCompile Include="gapi\src\streaming\gstreamer\gstreamer_buffer_utils.cpp" />
+    <ClCompile Include="gapi\src\streaming\gstreamer\gstreamer_media_adapter.cpp" />
+    <ClCompile Include="gapi\src\streaming\gstreamer\gstreamerenv.cpp" />
+    <ClCompile Include="gapi\src\utils\itt.cpp" />
+    <ClCompile Include="world\src\world_init.cpp" />
+    <ClInclude Include="world\src\precomp.hpp" />
+    <ResourceCompile Include="vs_version.rc" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ocl\test_warpers.cpp">
+      <Filter>opencv_stitching\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="test_blenders.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_blenders.cuda.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_exposure_compensate.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_main.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_matchers.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_reprojection.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_stitcher.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_wave_correction.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test_precomp.hpp">
+      <Filter>opencv_stitching\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_stitching">
+      <UniqueIdentifier>{C4C16572-266D-320A-A453-1B6BAEEB0CF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Include">
+      <UniqueIdentifier>{8323121A-173E-3C2E-9523-56E2E2460043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Src">
+      <UniqueIdentifier>{6388BAAC-95B5-3006-8D5C-9E9CF919A6C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Src\ocl">
+      <UniqueIdentifier>{EC71926A-1B87-3E0D-AA4E-71518F739B5F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

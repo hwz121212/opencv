@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="cuda\perf_gpumat.cpp">
+      <Filter>opencv_core\Src\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\opencl_perf_arithm.cpp">
+      <Filter>opencv_core\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\perf_bufferpool.cpp">
+      <Filter>opencv_core\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\perf_channels.cpp">
+      <Filter>opencv_core\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\perf_dxt.cpp">
+      <Filter>opencv_core\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\perf_gemm.cpp">
+      <Filter>opencv_core\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\perf_matop.cpp">
+      <Filter>opencv_core\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\perf_usage_flags.cpp">
+      <Filter>opencv_core\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_abs.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_addWeighted.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_allocation.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_arithm.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_bitwise.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_compare.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_convertTo.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_cvround.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_dft.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_dot.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_inRange.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_io_base64.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_lut.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_main.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_mat.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_math.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_merge.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_minmaxloc.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_norm.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_reduce.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_sort.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_split.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_stat.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_umat.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="perf_precomp.hpp">
+      <Filter>opencv_core\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_core">
+      <UniqueIdentifier>{B43E8447-6D7B-38FC-94CF-A6BFF546DF1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include">
+      <UniqueIdentifier>{190C9092-7E05-3169-A089-0486F62F502B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src">
+      <UniqueIdentifier>{0809F40B-6067-366E-9FA1-9009B80DB6AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\cuda">
+      <UniqueIdentifier>{60B8EFDF-B7CD-3E24-A1E1-E93030A12A90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl">
+      <UniqueIdentifier>{55CEADA7-AEA7-39CA-86C6-5759ADB66F8A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

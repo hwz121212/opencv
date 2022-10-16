@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="perf_input.cpp">
+      <Filter>opencv_videoio\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_main.cpp">
+      <Filter>opencv_videoio\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_output.cpp">
+      <Filter>opencv_videoio\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="perf_camera.impl.hpp">
+      <Filter>opencv_videoio\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="perf_precomp.hpp">
+      <Filter>opencv_videoio\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_videoio">
+      <UniqueIdentifier>{1C4018FB-00D0-37D6-B9ED-01AFF0794FA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_videoio\Include">
+      <UniqueIdentifier>{7AD538C9-531D-303D-B3FD-633280A38D80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_videoio\Src">
+      <UniqueIdentifier>{3F31B0C6-A2BB-342E-8698-7DADB775AF91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

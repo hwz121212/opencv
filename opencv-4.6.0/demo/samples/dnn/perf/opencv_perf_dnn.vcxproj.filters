@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="perf_caffe.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_common.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_convolution.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_convolution1d.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_convolution3d.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_layer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_net.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_recurrent.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+
+    <ClInclude Include="perf_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{4D2421D6-3287-3AE7-B231-734E2D48F84B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{6BEF9A64-EBC1-36A1-BA0F-2F6D5C05DC9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test_common">
+      <UniqueIdentifier>{FCEEEED6-C720-39FF-B113-3330549EB4BB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="world\matmul.avx512_skx.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\sift.avx512_skx.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\sumpixels.avx512_skx.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\world_int8layers_layers_common.avx512_skx.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\world_layers_layers_common.avx512_skx.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="world">
+      <UniqueIdentifier>{57b6d489-c542-4ed9-89b4-4e3c7852f36b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

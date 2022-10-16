@@ -1,0 +1,1 @@
+..\..\..\..\..\..\tool\protoc\protoc_exe.exe opencv-caffe.proto --proto_path=. --cpp_out=.

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="opencl\perf_brute_force_matcher.cpp">
+      <Filter>opencv_features2d\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\opencl_perf_feature2d.cpp">
+      <Filter>opencv_features2d\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_batchDistance.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_feature2d.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_main.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="perf_feature2d.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="perf_precomp.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_features2d">
+      <UniqueIdentifier>{6250FBB1-547F-355D-9F4A-3EDEB6DC8BD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Include">
+      <UniqueIdentifier>{DF4EC9AE-D516-35DC-AFB2-D9D208BC9F67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src">
+      <UniqueIdentifier>{D9D48AEA-D266-37D4-ADB7-AEFD67B05C94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src\opencl">
+      <UniqueIdentifier>{1B3D29C4-2DB4-3384-9C2D-E55E57A7EF3D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

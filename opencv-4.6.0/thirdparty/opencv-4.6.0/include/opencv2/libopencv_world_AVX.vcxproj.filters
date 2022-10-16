@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="imgproc\src\corner.avx.cpp">
+      <Filter>opencv_imgproc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="world\accum.avx.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\mathfuncs_core.avx.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\layers\layers_common.avx.cpp">
+      <Filter>world\layers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_imgproc">
+      <UniqueIdentifier>{4D6309C8-2D54-313C-9336-7112D5CC777D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\src">
+      <UniqueIdentifier>{B326BF07-B6A2-3F2C-BFAB-749D4A10934A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world">
+      <UniqueIdentifier>{bb9e70bf-5285-4c30-897c-786fc512dc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world\layers">
+      <UniqueIdentifier>{ad48c96c-119b-45d0-badc-c96d28b2ba53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="opencl\opencl_perf_bgfg_knn.cpp">
+      <Filter>opencv_video\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\opencl_perf_bgfg_mog2.cpp">
+      <Filter>opencv_video\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\perf_dis_optflow.cpp">
+      <Filter>opencv_video\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\perf_motempl.cpp">
+      <Filter>opencv_video\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\perf_optflow_farneback.cpp">
+      <Filter>opencv_video\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl\perf_optflow_pyrlk.cpp">
+      <Filter>opencv_video\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_bgfg_knn.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_bgfg_mog2.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_disflow.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_ecc.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_main.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_optflowpyrlk.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_trackers.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_variational_refinement.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="perf_bgfg_utils.hpp">
+      <Filter>opencv_video\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="perf_precomp.hpp">
+      <Filter>opencv_video\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_video">
+      <UniqueIdentifier>{9902086B-21F7-34FE-AF94-46575BBD158C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Include">
+      <UniqueIdentifier>{CE160F98-E749-3B1C-BF82-BCCD93EF69B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src">
+      <UniqueIdentifier>{C0BB5653-9512-374F-B300-B3A986930D2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\opencl">
+      <UniqueIdentifier>{0CCD78CB-97F9-3379-A107-C9F8E790398D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

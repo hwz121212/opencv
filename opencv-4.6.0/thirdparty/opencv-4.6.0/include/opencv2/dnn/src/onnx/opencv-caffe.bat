@@ -1,0 +1,1 @@
+..\..\..\..\..\..\tool\protoc\protoc_exe.exe opencv-onnx.proto --proto_path=. --cpp_out=.

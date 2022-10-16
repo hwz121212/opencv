@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ocl\test_accumulate.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_blend.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_boxfilter.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\ocl_test_canny.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\ocl_test_color.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_filter2d.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_filters.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_gftt.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_histogram.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\ocl_test_houghlines.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_imgproc.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_match_template.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_medianfilter.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_pyramids.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_sepfilter2d.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl\test_warp.cpp">
+      <Filter>opencv_imgproc\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="test_approxpoly.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_bilateral_filter.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_boundingrect.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_canny.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_color.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_connectedcomponents.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_contours.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_convhull.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_cvtyuv.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_distancetransform.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_drawing.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_emd.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_filter.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_fitellipse.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_fitellipse_ams.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_fitellipse_direct.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_floodfill.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_goodfeaturetotrack.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_grabcut.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_histograms.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_houghcircles.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_houghlines.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_imgproc_umat.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_imgwarp.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_imgwarp_strict.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_intelligent_scissors.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_intersectconvexconvex.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_intersection.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_lsd.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_main.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_moments.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_pc.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_resize_bitexact.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_smooth_bitexact.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_subdivision2d.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_templmatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_templmatchmask.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_thresh.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_watershed.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test_precomp.hpp">
+      <Filter>opencv_imgproc\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Filter Include="opencv_imgproc">
+      <UniqueIdentifier>{84CC3C94-F30D-3D08-943D-F3C4B8FD86EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include">
+      <UniqueIdentifier>{0785D6AF-E1FD-3C21-8181-A6E24AA945DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src">
+      <UniqueIdentifier>{3C3094EB-4AD3-3452-8172-FA44D47458D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src\ocl">
+      <UniqueIdentifier>{43E2C1BA-4D02-3FA3-AF99-D93FF22616D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

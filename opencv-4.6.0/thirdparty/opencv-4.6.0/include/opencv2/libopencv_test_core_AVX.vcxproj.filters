@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="world">
+      <UniqueIdentifier>{23C1331B-3365-3651-9225-554A6841ACD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world\test">
+      <UniqueIdentifier>{0544863b-d688-44f5-8ea1-a20ddf9de18a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="world\test\test_intrin128.avx.cpp">
+      <Filter>world\test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

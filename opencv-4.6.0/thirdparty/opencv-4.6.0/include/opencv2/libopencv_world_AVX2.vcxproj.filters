@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="world\mathfuncs_core.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\stat.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\arithm.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\convert.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\convert_scale.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\count_non_zero.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\matmul.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\mean.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\merge.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\split.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\sum.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\bilateral_filter.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\box_filter.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\filter.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\color_hsv.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\color_rgb.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\color_yuv.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\median_blur.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\morph.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\smooth.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\sumpixels.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\world_layers_layers_common.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\world_int8layers_layers_common.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\sift.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\undistort.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\gfluidimgproc_func.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\gfluidcore_func.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="features2d\src\fast.avx2.cpp">
+      <Filter>features2d\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\imgwarp.avx2.cpp">
+      <Filter>imgproc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgproc\src\resize.avx2.cpp">
+      <Filter>imgproc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="world\accum.avx2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="features2d">
+      <UniqueIdentifier>{6250FBB1-547F-355D-9F4A-3EDEB6DC8BD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features2d\src">
+      <UniqueIdentifier>{D9D48AEA-D266-37D4-ADB7-AEFD67B05C94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgproc">
+      <UniqueIdentifier>{84CC3C94-F30D-3D08-943D-F3C4B8FD86EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgproc\src">
+      <UniqueIdentifier>{3C3094EB-4AD3-3452-8172-FA44D47458D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world">
+      <UniqueIdentifier>{23C1331B-3365-3651-9225-554A6841ACD6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

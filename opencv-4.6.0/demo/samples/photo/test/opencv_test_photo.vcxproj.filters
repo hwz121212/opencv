@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ocl\ocl_test_denoising.cpp">
+      <Filter>opencv_photo\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="test_cloning.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_decolor.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_denoise_tvl1.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_denoising.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_denoising.cuda.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_hdr.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_inpaint.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_main.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_npr.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test_precomp.hpp">
+      <Filter>opencv_photo\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_photo">
+      <UniqueIdentifier>{F1951CF8-AFCC-3FAA-A6B9-7ABF6BEBE3B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include">
+      <UniqueIdentifier>{F26EA6EE-B9B9-3716-9656-0B763A6E4620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src">
+      <UniqueIdentifier>{344C3FB0-B66C-3F3D-96BC-44CE01750608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\ocl">
+      <UniqueIdentifier>{3598381D-817D-310C-8D80-58901DA383A7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
