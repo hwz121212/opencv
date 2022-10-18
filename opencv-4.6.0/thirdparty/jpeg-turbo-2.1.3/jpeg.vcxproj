@@ -60,10 +60,7 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>PPM_SUPPORTED;BMP_SUPPORTED;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;jpeg_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.;</AdditionalIncludeDirectories>
-    </ResourceCompile>
+    
     <NASM>
       <IncludePaths>;%(IncludePaths)</IncludePaths>
       <AdditionalOptions>-f</AdditionalOptions>
@@ -96,10 +93,7 @@
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;jpeg_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.;</AdditionalIncludeDirectories>
-    </ResourceCompile>
+    
     <NASM>
       <IncludePaths>;%(IncludePaths)</IncludePaths>
       <AdditionalOptions>-f</AdditionalOptions>

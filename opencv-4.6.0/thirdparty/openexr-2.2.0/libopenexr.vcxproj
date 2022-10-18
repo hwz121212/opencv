@@ -69,10 +69,7 @@
       <DisableSpecificWarnings>4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>_DEBUG;</PreprocessorDefinitions>
-      <Culture>0x040c</Culture>
-    </ResourceCompile>
+    
     <Lib>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Lib>
@@ -102,10 +99,7 @@
       <DisableSpecificWarnings>4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>_DEBUG;</PreprocessorDefinitions>
-      <Culture>0x040c</Culture>
-    </ResourceCompile>
+    
     <Lib>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Lib>
