@@ -58,12 +58,10 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;PNG_BUILD_DLL</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ZLIB_DLL;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;PNG_BUILD_DLL</PreprocessorDefinitions>
     </ClCompile>
-    
-    
     <Link>
-      <AdditionalDependencies>libzlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -82,13 +80,11 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>;WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;PNG_BUILD_DLL</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ZLIB_DLL;WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;PNG_BUILD_DLL</PreprocessorDefinitions>
       <DebugInformationFormat />
     </ClCompile>
-    
-    
     <Link>
-      <AdditionalDependencies>libzlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
