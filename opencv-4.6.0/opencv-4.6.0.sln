@@ -687,6 +687,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libprotoc", "thirdparty\pro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libopencv_world", "thirdparty\opencv-4.6.0\include\opencv2\libopencv_world.vcxproj", "{CC8F4100-F43E-4A97-A08E-18A0114FE7AA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github_demo", "github_demo", "{EAA72C21-CC13-4387-A83F-38998A43F19B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CartoonMaker", "demo\github_demo\CartoonMaker\CartoonMaker.vcxproj", "{1275D322-2905-46C4-A495-975C473681D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1957,6 +1961,10 @@ Global
 		{CC8F4100-F43E-4A97-A08E-18A0114FE7AA}.Debug|x64.Build.0 = Debug|x64
 		{CC8F4100-F43E-4A97-A08E-18A0114FE7AA}.Release|x64.ActiveCfg = Release|x64
 		{CC8F4100-F43E-4A97-A08E-18A0114FE7AA}.Release|x64.Build.0 = Release|x64
+		{1275D322-2905-46C4-A495-975C473681D0}.Debug|x64.ActiveCfg = Debug|x64
+		{1275D322-2905-46C4-A495-975C473681D0}.Debug|x64.Build.0 = Debug|x64
+		{1275D322-2905-46C4-A495-975C473681D0}.Release|x64.ActiveCfg = Release|x64
+		{1275D322-2905-46C4-A495-975C473681D0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2294,6 +2302,8 @@ Global
 		{B62AB514-6EB5-48CE-ACD8-A221570EB16E} = {95CECFBB-A179-462D-8F2C-5A2B97DF1F6C}
 		{F7FB0BF0-1F6C-4ACD-934C-48F56370B11B} = {95CECFBB-A179-462D-8F2C-5A2B97DF1F6C}
 		{CC8F4100-F43E-4A97-A08E-18A0114FE7AA} = {C7DE11DD-9EBB-3492-9111-D56C5B00E54B}
+		{EAA72C21-CC13-4387-A83F-38998A43F19B} = {8112413C-49F5-4F4E-9F81-D95D0B40AB6F}
+		{1275D322-2905-46C4-A495-975C473681D0} = {EAA72C21-CC13-4387-A83F-38998A43F19B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {117F9771-01C3-3619-9AFD-40FDD4C1BB86}
