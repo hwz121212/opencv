@@ -257,12 +257,12 @@ void CCartoonMakerDlg::OnBnClickedOpen()
 	if (dlg.DoModal() == IDOK)
 	{
 		path = dlg.GetPathName();
-		m_url.SetWindowTextW(path);
+		m_url.SetWindowText(path);
 	}
 
 	CString src_path;
-	m_url.GetWindowTextW(src_path);
-	std::string temp = CW2A(src_path.GetString());
+	m_url.GetWindowText(src_path);
+	std::string temp = (src_path.GetString());
 	m_srcimg = imread(temp);
 	show_mat(m_srcimg, IDC_DISPLAY);
 }
@@ -567,7 +567,7 @@ void CCartoonMakerDlg::OnBnClickedStartprocess()
 	//addWeighted(down,0.5,rgbedge,0.5,0,result);
 
 	Mat gray;
-	cvtColor(down, gray, CV_RGB2GRAY);
+	cvtColor(down, gray, COLOR_RGB2GRAY);
 	show_mat(gray, IDC_DISPLAY);
 	Mat edge;
 	adaptiveThreshold(gray,edge,255, ADAPTIVE_THRESH_GAUSSIAN_C, THRESH_BINARY_INV,

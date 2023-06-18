@@ -1,4 +1,4 @@
-#include<opencv.hpp>
+#include <opencv2/opencv.hpp>
 #include <atlimage.h>  //CImage
 /*
 显示opencv图片格式Mat到图像控件vIDC上

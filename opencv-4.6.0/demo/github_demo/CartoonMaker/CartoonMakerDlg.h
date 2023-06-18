@@ -5,7 +5,7 @@
 #pragma once
 #include "afxwin.h"
 #include "afxcmn.h"
-#include<opencv.hpp>
+#include <opencv2/opencv.hpp>
 
 
 // CCartoonMakerDlg ¶Ô»°¿ò
